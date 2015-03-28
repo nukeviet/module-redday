@@ -1,9 +1,10 @@
 <?php
 
 /**
- * @Project NUKEVIET 3.x
+ * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC (contact@vinades.vn)
- * @Copyright (C) 2012 VINADES.,JSC. All rights reserved
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
  * @Createdate 2-9-2010 14:43
  */
 
@@ -29,5 +30,3 @@ $lang_module['rderrdate'] = "Ngày không hợp lệ, hãy chọn ngày khác!";
 $lang_module['stateevents'] = "Sự kiện trong nước";
 $lang_module['interevents'] = "Sự kiện ngoài nước";
 $lang_module['otherevents'] = "Sự kiện khác";
-
-?>
