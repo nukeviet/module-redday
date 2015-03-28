@@ -1,10 +1,11 @@
 <?php
 
 /**
- * @Project NUKEVIET 3.x
+ * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC (contact@vinades.vn)
  * @copyright 2009
- * @createdate 12/31/2009 2:29
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 12/31/2009 2:29
  */
 
 
@@ -16,10 +17,8 @@ $module_version = array(
 	"submenu" => "main", //
 	"is_sysmod" => 1, //
 	"virtual" => 0, //
-	"version" => "3.4.02", //
+	"version" => "4.0.00", //
 	"date" => "Wed, 4 Feb 2012 00:00:00 GMT", // 
 	"author" => "VINADES (contact@vinades.vn)", //
 	"note" => ""
 );
-
-?>

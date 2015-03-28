@@ -3,24 +3,24 @@
     <!-- BEGIN: error -->
     <div style="text-align:center;color:#f00;font-weight:bold;">{ERROR}</div>
 	<!-- END: error -->
-    <form method="post" action="{ACTION}">
-        <table class="tab1">
+    <form class="form-inline" method="post" action="{ACTION}">
+        <table class="table table-striped table-bordered table-hover">
             <tbody>
                 <tr>
                     <td>
                     {LANG.rdselectday}: &nbsp;
-                        <select name="day">
+                        <select class="form-control" name="day">
                             <!-- BEGIN: loop_day -->
                             <option{DAY.sl} {DAY.value}>{DAY.value}</option>
                             <!-- END: loop_day -->
                         </select>
                         {LANG.rdselectmonth}: &nbsp;
-                        <select name="month">
+                        <select class="form-control" name="month">
                             <!-- BEGIN: loop_month -->
                             <option{MONTH.sl} {MONTH.value}>{MONTH.value}</option>
                             <!-- END: loop_month -->
                         </select>
-                        <input type="submit" value="{LANG.rdsubmit}" name="submit1" />
+                        <input class="btn btn-primary" type="submit" value="{LANG.rdsubmit}" name="submit1" />
                     </td>
                 </tr>
             </tbody>

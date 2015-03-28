@@ -1,9 +1,10 @@
 <?php
 
 /**
- * @Project NUKEVIET 3.x
+ * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC (contact@vinades.vn)
- * @Copyright (C) 2012 VINADES.,JSC. All rights reserved
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
  * @Createdate 2-9-2010 14:43
  */
 
@@ -35,5 +36,3 @@ $lang_module['redirect_to_home'] = "Click để chuyển về trang chủ";
 
 $lang_module['error_month2'] = "Lỗi: Tháng 2 không có ngày thứ %s";
 $lang_module['error_month'] = "Lỗi: Tháng % không có ngày thứ %s";
-
-?>

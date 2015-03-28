@@ -1,9 +1,10 @@
 <?php
 
 /**
- * @Project NUKEVIET 3.x
+ * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC (contact@vinades.vn)
- * @Copyright (C) 2012 VINADES.,JSC. All rights reserved
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
  * @Createdate 2-9-2010 14:43
  */
 
@@ -43,7 +44,7 @@ if( $month == 2 and $day > 29 )
 }
 if( ! $ok )
 {
-	Header( "Location: " . NV_BASE_ADMINURL . "index.php?" . NV_NAME_VARIABLE . "=" . $module_name . "" );
+	Header( "Location: " . NV_BASE_ADMINURL . "index.php?" . NV_LANG_VARIABLE . "=" . NV_LANG_DATA . "&" . NV_NAME_VARIABLE . "=" . $module_name . "" );
 	exit;
 }
 $serialize = array();
@@ -62,16 +63,14 @@ $fl = @fopen( $cache_file, "w" );
 @fwrite( $fl, $serialized );
 @fclose( $fl );
 
-$nv_redirect = NV_BASE_ADMINURL . "index.php?" . NV_NAME_VARIABLE . "=" . $module_name;
+$nv_redirect = NV_BASE_ADMINURL . "index.php?" . NV_LANG_VARIABLE . "=" . NV_LANG_DATA . "&" . NV_NAME_VARIABLE . "=" . $module_name;
 $info = "<div style='text-align:center;'>" . $lang_module['save_ok'] . "<br /><br />\n";
 $info .= "\n<img border=\"0\" src=\"" . NV_BASE_SITEURL . "images/load_bar.gif\"><br /><br />\n";
 $info .= "[<a href=\"" . $nv_redirect . "\">" . $lang_module['redirect_to_home'] . "</a>]\n</div>";
 $contents .= $info;
 $contents .= "<meta http-equiv=\"refresh\" content=\"2;url=" . nv_url_rewrite( $nv_redirect ) . "\" />";
 
-include ( NV_ROOTDIR . "/includes/header.php" );
+include NV_ROOTDIR . '/includes/header.php';
 echo nv_admin_theme( $contents );
-include ( NV_ROOTDIR . "/includes/footer.php" );
+include NV_ROOTDIR . '/includes/footer.php';
 exit();
-
-?>

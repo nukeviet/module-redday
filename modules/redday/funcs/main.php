@@ -1,10 +1,11 @@
 <?php
 
 /**
- * @Project NUKEVIET 3.x
+ * @Project NUKEVIET 4.x
  * @Author VINADES.,JSC (contact@vinades.vn)
  * @copyright 2009
- * @createdate 12/31/2009 2:29
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 12/31/2009 2:29
  */
 
 if( ! defined( 'NV_IS_MOD_REDDAY' ) ) die( 'Stop!!!' );
@@ -56,8 +57,6 @@ $contents = nv_theme_redday_main ( $array_data, $error );
 
 $page_title = sprintf( $lang_module['main_title_redday'], $day, $month );
 
-include ( NV_ROOTDIR . "/includes/header.php" );
+include NV_ROOTDIR . '/includes/header.php';
 echo nv_site_theme( $contents );
-include ( NV_ROOTDIR . "/includes/footer.php" );
-
-?>
+include NV_ROOTDIR . '/includes/footer.php';
