@@ -1,0 +1,2 @@
+a:4:{i:0;s:0:"";i:1;a:0:{}i:2;a:1:{i:0;s:418:"Nhạc sĩ Italia, Vineenzô Bellini sinh ngày 3-1-1801. Ông là nhạc sĩ tiêu biểu cho xu hướng tìm kiếm những giai điệu êm dịu trong nền nhạc kịch Italia. Tính hùng tráng ở nhiều bài hát trong nhạc kịch của ông đã có tác động kích thích cao trào cách mạng của quần chúng Italia vào những năm 30 của thế kỷ.
+Ông mất ngày 24-9-1835 tại Pari.";}i:3;s:0:"";}

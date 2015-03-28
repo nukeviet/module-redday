@@ -1,0 +1,9 @@
+a:4:{i:0;s:0:"";i:1;a:7:{i:0;s:360:"Thiền sư Viên Thông viên tịch ngày 7-6-1151. Ông sinh nǎm 1080 ở làng Cổ Hiền, nay thuộc tỉnh Bắc Ninh.
+Là một người tinh thông đạo Phật, Viên Thông còn là một nhà vǎn. Ông được vua nhà Lý trọng vọng, thường mời đến bàn bạc công việc của triều chính.
+Ông được phong làm quốc sư";i:1;s:225:"Ngày 7-6-1957, Chính phủ ta đã thành lập Viện nghiên cứu đông y (ở Hà Nội) thuộc Bộ Y tế nhằm nghiên cứu những môn thuốc và phương pháp chữa bệnh cổ truyền của dân tộc ta.";i:2;s:86:"Ngày 7-6-1970: Việt Nam và Somalia lập quan hệ ngoại giao cấp đại sứ.";i:3;s:879:"Từ ngày 7 đến 10-6-1971, Quốc hội khoá IV họp kỳ thứ nhất đã nghe báo cáo về tình hình và kết quả cuộc bầu cử Quốc hội khoá IV, về công tác đấu tranh ngoại giao, về tình hình đấu tranh quân sự. Quốc hội tiến hành bầu các vị lãnh đạo Nhà nước và các vị phụ trách các cơ quan cao cấp khác. Toàn thể Quốc hội nhất trí bầu:
+Cụ Tôn Đức Thắng giữ chức Chủ tịch nước Việt Nam dân chủ cộng hoà.
+Đồng chí Nguyễn Lương Bằng giữ chức Phó Chủ tịch nước Việt Nam dân chủ cộng hoà. 
+Đồng chí Trường Chinh giữ chức Chủ tịch Uỷ ban thường vụ Quốc hội.
+Đồng chí Phạm Vǎn Đồng giữ chức Thủ tướng Chính phủ.
+Cụ Tôn Đức Thắng giữ chức Chủ tịch Hội đồng Quốc phòng.";i:4;s:94:"Ngày 7-6-1978: Việt Nam và Thổ Nhĩ Kỳ lập quan hệ ngoại giao cấp đại sứ.";i:5;s:416:"Ngày 7-6-1986, tại Hà Nội đã khai mạc triển lãm thành tựu khoa học kỹ thuật toàn quốc lần thứ nhất.
+Có 1427 công trình và sản phẩm được trưng bày, trong đó có 972 sản phẩm thuộc chương trình trọng điểm Nhà nước, 375 sản phẩm thuộc các bộ, ngành và 90 tiến bộ kỹ thuật được áp dụng vào sản xuất ở các địa phương.";i:6;s:86:"Ngày 7-6-1994: Việt Nam và Slovenia lập quan hệ ngoại giao cấp đại sứ";}i:2;a:0:{}i:3;s:0:"";}

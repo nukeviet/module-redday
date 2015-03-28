@@ -1,0 +1,38 @@
+.redday-title{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    font-weight: bolder; 
+    color: #F36400;
+}
+.redday-event{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11px; 
+    font-weight: bold; 
+    text-decoration: underline; 
+    text-transform: uppercase; 
+    padding-bottom: 5px; 
+    margin-bottom: 5px;
+}
+.redday-event ul{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px; 
+    text-align: justify; 
+    padding-bottom: 20px; 
+    margin-bottom: 20px;
+}
+.redday-event ul li{
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 4px
+}
+.redday-event0{
+    text-align: center; 
+    font-family: Tahoma, Helvetica, sans-serif; 
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #F36400; 
+    padding-bottom: 5px; 
+    margin-bottom: 5px;
+}
