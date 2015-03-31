@@ -70,22 +70,9 @@ if( $nv_Request->isset_request( 'submit1', 'post' ) )
 		{
 			$content_file = file_get_contents( $filename );
 			$content_file = trim( $content_file );
-
-			if( !empty( $content_file ) )
+			if( ! empty( $content_file ) )
 			{
-				//print_r($content_file);
-				//var_dump($2);die;
-				
-				$out = preg_replace( '!s\:(\d+)\:"(.*?)";!se', "'s:'.strlen('$2').':\"$2\";'", $content_file );
-				//print('!s:(\d+):"(.*?)";!se');
-				//die( "'s:'.strlen('$2').':\"$2\";'");
-
-				// $out = preg_replace_callback( '!s\:(\d+)\:"(.*?)";!s', function( $matches )
-				// {
-					// return "'s:'.strlen('$matches[2]').':\"$matches[2]\";'";
-				// }, $content_file );
-
-				$unserialize = unserialize( $out );
+				$unserialize = unserialize( $content_file );
 			}
 		}
 
