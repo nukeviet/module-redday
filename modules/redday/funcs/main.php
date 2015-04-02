@@ -48,8 +48,10 @@ else
 	if( file_exists( $filename ) )
 	{
 		$content_file = file_get_contents( $filename );
-		$out = preg_replace( '!s:(\d+):"(.*?)";!se', "'s:'.strlen('$2').':\"$2\";'", $content_file );
-		$array_data = unserialize( $out );
+		if( ! empty( $content_file ) )
+		{
+			$array_data = unserialize( $content_file );
+		}
 	}	
 }
 
