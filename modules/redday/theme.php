@@ -14,16 +14,16 @@ function nv_theme_redday_main( $array_data, $error )
 {
 	global $module_name, $module_file, $lang_module, $module_info, $op, $day, $month;
 
-	$xtpl = new XTemplate( $op . ".tpl", NV_ROOTDIR . "/themes/" . $module_info['template'] . "/modules/" . $module_file );
+	$xtpl = new XTemplate( $op . '.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/' . $module_file );
 	$xtpl->assign( 'LANG', $lang_module );
 	$xtpl->assign( 'TEMPLATE', $module_info['template'] );
 	$xtpl->assign( 'NV_BASE_SITEURL', NV_BASE_SITEURL );
-	$xtpl->assign( 'ACTION', NV_BASE_SITEURL . "index.php?" . NV_NAME_VARIABLE . "=" . $module_name . "&" . NV_OP_VARIABLE . "=" . $op );
+	$xtpl->assign( 'ACTION', NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name );
 	$xtpl->assign( 'main_title_redday', sprintf( $lang_module['main_title_redday'], $day, $month ) );
 
 	if( ! empty( $error ) )
 	{
-		$xtpl->assign( 'ERROR', implode( "<br />", $error ) );
+		$xtpl->assign( 'ERROR', implode( '<br />', $error ) );
 		$xtpl->parse( 'main.error' );
 	}
 

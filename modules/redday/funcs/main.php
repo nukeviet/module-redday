@@ -10,11 +10,9 @@
 
 if( ! defined( 'NV_IS_MOD_REDDAY' ) ) die( 'Stop!!!' );
 
-$index = 1;
-
 global $day, $month;
-$day = $nv_Request->get_int( 'day', 'post', date( "d", NV_CURRENTTIME ) );
-$month = $nv_Request->get_int( 'month', 'post', date( "m", NV_CURRENTTIME ) );
+$day = $nv_Request->get_int( 'day', 'post', date( 'd', NV_CURRENTTIME ) );
+$month = $nv_Request->get_int( 'month', 'post', date( 'm', NV_CURRENTTIME ) );
 
 $error = array();
 if( $day <= 0 or $day > 31 or $month <= 0 or $month > 12 )
@@ -36,14 +34,14 @@ if( $month == 2 and $day > 29 )
 }
 if( ! empty( $error ) )
 {
-	$xtpl->assign( 'ERROR', implode( "<br />", $error ) );
+	$xtpl->assign( 'ERROR', implode( '<br />', $error ) );
 	$xtpl->parse( 'main.error' );
 }
 else
 {
-	$mday = str_pad( $day, 2, "0", STR_PAD_LEFT );
-	$mmonth = str_pad( $month, 2, "0", STR_PAD_LEFT );
-	$filename = "modules/redday/data/" . $mday . $mmonth . "_vietnamese.txt";
+	$mday = str_pad( $day, 2, '0', STR_PAD_LEFT );
+	$mmonth = str_pad( $month, 2, '0', STR_PAD_LEFT );
+	$filename = NV_ROOTDIR . '/modules/redday/data/' . $mday . $mmonth . '_vietnamese.txt';
 	$array_data = array();
 	if( file_exists( $filename ) )
 	{
@@ -52,7 +50,7 @@ else
 		{
 			$array_data = unserialize( $content_file );
 		}
-	}	
+	}
 }
 
 $contents = nv_theme_redday_main ( $array_data, $error );

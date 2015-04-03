@@ -8,18 +8,17 @@
  * @Createdate 2-9-2010 14:43
  */
 
-if( !defined( 'NV_IS_FILE_ADMIN' ) )
-	die( 'Stop!!!' );
-$page_title = "Redday";
+if( !defined( 'NV_IS_FILE_ADMIN' ) ) die( 'Stop!!!' );
+$page_title = 'Redday';
 global $currentlang, $datafold, $adminfile;
 $day = $nv_Request->get_int( 'day', 'post', 0 );
 $month = $nv_Request->get_int( 'month', 'post', 0 );
 
-$xtpl = new XTemplate( $op . ".tpl", NV_ROOTDIR . "/themes/" . $global_config['module_theme'] . "/modules/" . $module_file );
+$xtpl = new XTemplate( $op . '.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file );
 
 $lang_module['rdeditday'] = sprintf( $lang_module['rdeditday'], $day, $month );
 $xtpl->assign( 'LANG', $lang_module );
-$xtpl->assign( 'ACTION', NV_BASE_ADMINURL . "index.php?" . NV_LANG_VARIABLE . "=" . NV_LANG_DATA . "&" . NV_NAME_VARIABLE . "=" . $module_name . "&" . NV_OP_VARIABLE . "=" );
+$xtpl->assign( 'ACTION', NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&' . NV_NAME_VARIABLE . '=' . $module_name . '&' . NV_OP_VARIABLE . '=' );
 
 for( $i = 1; $i <= 31; $i++ )
 {
@@ -57,14 +56,14 @@ if( $nv_Request->isset_request( 'submit1', 'post' ) )
 	}
 	if( !empty( $error ) )
 	{
-		$xtpl->assign( 'ERROR', implode( "<br />", $error ) );
+		$xtpl->assign( 'ERROR', implode( '<br />', $error ) );
 		$xtpl->parse( 'main.error' );
 	}
 	else
 	{
-		$mday = str_pad( $day, 2, "0", STR_PAD_LEFT );
-		$mmonth = str_pad( $month, 2, "0", STR_PAD_LEFT );
-		$filename = NV_ROOTDIR . "/modules/redday/data/" . $mday . $mmonth . "_vietnamese.txt";
+		$mday = str_pad( $day, 2, '0', STR_PAD_LEFT );
+		$mmonth = str_pad( $month, 2, '0', STR_PAD_LEFT );
+		$filename = NV_ROOTDIR . '/modules/redday/data/' . $mday . $mmonth . '_vietnamese.txt';
 		$unserialize = array( );
 		if( file_exists( $filename ) )
 		{

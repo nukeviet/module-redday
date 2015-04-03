@@ -1,6 +1,1 @@
-a:4:{i:0;s:0:"";i:1;a:3:{i:0;s:261:"Ngày 21-7-1786, Nguyễn Huệ đưa quân Tây Sơn ra Bắc Hà lần thứ nhất, với khẩu hiệu \"Phò Lê - diệt Trịnh\" và thống nhất đất nước sau hơn 200 nǎm bị thế lực phong kiến họ Trịnh và họ Nguyễn cắt chia.";i:1;s:415:"Hoạ sĩ Nguyễn Phan Chánh sinh ngày 21-7-1892 tại huyện Thanh Hà, tỉnh Hà Tĩnh và qua đời ngày 22-11-1984 tại Hà Nội. Ông học khoá đầu tiên trường Cao đẳng Mỹ thuật Đông Dương (nǎm 1924), trở thành hoạ sĩ nổi tiếng do đã mở đầu nghệ thuật tranh lụa ở nước ta. Nhiều người còn nhớ bức tranh lụa \"Chơi ô ǎn quan\" của ông.";i:2;s:1183:"Nghệ sĩ nhân dân Nguyễn Vǎn Bình qua đời vào ngày 21-7-1978.
-Ông có bút danh là Ngô Y Linh và Nguyễn Vũ, sinh nǎm 1929 tại thị xã Thái Nguyên. Thuở nhỏ, ông học trường Thǎng Long (Hà Nội) rồi vào Sài Gòn làm nghề nhiếp ảnh, tiếp tục học hết trung học.
-Từ nǎm 1948, ông làm việc ở cơ quan vǎn nghệ của quân khu 7 - miền Đông Nam Bộ.
-Nǎm 1954, ông tập kết ra Bắc, rồi đi học đạo diễn ở nước ngoài, đến nǎm 1961 tốt nghiệp, về nước, ông làm giảng viên trường Sân khấu Việt Nam.
-Nǎm 1964, ông trở về miền Nam, chỉ đạo nghệ thuật đoàn kịch nói Cửu Long Giang. Những kịch bản chính gồm có: \"Những viên đạn đầu tiên\"; \"Trận đấu thầm lặng\"; \"Bài ca người thợ trẻ\"; \"Diễn viên không chuyên nghiệp\"; \"Ngọn lửa\"; \"Mùa xuân\"...
-Ngô Y Linh - Nguyễn Vũ được đánh giá là một nhà soạn kịch tài nǎng, một đạo diễn sân khấu xuất sắc, nhưng trước hết ông là chiến sĩ tiêu biểu của nền nghệ thuật Cách mạng nước ta.";}i:2;a:0:{}i:3;s:0:"";}
+a:2:{i:0;s:0:"";i:1;a:0:{}}
