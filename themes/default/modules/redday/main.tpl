@@ -64,7 +64,8 @@
             <!-- END: loop_otherevents -->
         </ul>
     </div>
-    <!-- END: otherevents -->
+    
     <!-- END: content -->
-</div>
+</div>    
+
 <!-- END: main -->
