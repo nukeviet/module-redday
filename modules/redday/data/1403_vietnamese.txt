@@ -1,5 +1,5 @@
-a:4:{i:0;s:0:"";i:1;a:2:{i:0;s:778:"Ngày 14-3-1900 là ngày sinh của nhà thơ hiện đại Hồ Trọng Hiếu, bút danh Tú Mỡ, sinh quán ở Hà Nội.
-Ông chuyên về lối thơ trào phúng, dí dỏm mà sâu sắc, duyên dáng ý nhị trong từ ngữ điêu luyện. Từ nǎm 1936 ông cộng tác với báo \"Phong hoá\" ; \"Ngày nay\" và nhóm \"Tự lực vǎn đoàn\", đến cách mạng Tháng Tám trong kháng chiến chống Pháp, ông tích cực tham gia, sinh hoạt trong Hội Vǎn hoá nghệ thuật góp phần công sức của mình vào công cuộc cứu nước và xây dựng nền vǎn hoá mới.
+a:4:{i:0;s:0:"";i:1;a:2:{i:0;s:772:"Ngày 14-3-1900 là ngày sinh của nhà thơ hiện đại Hồ Trọng Hiếu, bút danh Tú Mỡ, sinh quán ở Hà Nội.
+Ông chuyên về lối thơ trào phúng, dí dỏm mà sâu sắc, duyên dáng ý nhị trong từ ngữ điêu luyện. Từ nǎm 1936 ông cộng tác với báo "Phong hoá" ; "Ngày nay" và nhóm "Tự lực vǎn đoàn", đến cách mạng Tháng Tám trong kháng chiến chống Pháp, ông tích cực tham gia, sinh hoạt trong Hội Vǎn hoá nghệ thuật góp phần công sức của mình vào công cuộc cứu nước và xây dựng nền vǎn hoá mới.
 Tú Mỡ là một nhà thơ trào phúng nổi tiếng của nền vǎn học hiện đại của nước ta, thơ ông mang sắc thái dân tộc hiện đại.";i:1;s:723:"Nhà vǎn Hoài Thanh tên thật là Nguyễn Đức Nguyên, quê ở huyện Nghi Lộc, tỉnh Hà Tĩnh, sinh nǎm 1909, qua đời ngày 14-3-1982. 
 Lúc nhỏ ông học ở Nghệ An và Huế. Sau đó ông dạy học ở Huế và nghiên cứu vǎn hoá dân tộc. Sau Cách mạng Tháng Tám, ông có nhiều đóng góp trong lĩnh vực vǎn nghệ. 
 Ông nổi tiếng là một nhà phê bình vǎn học theo quan điểm Mác - Lênin trong giai đoạn đầu xây dựng chủ nghĩa xã hội ở nước ta.

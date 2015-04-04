@@ -8,6 +8,6 @@
  * @Createdate 12/31/2009 2:29
  */
 
-
 if ( ! defined( 'NV_SYSTEM' ) ) die( 'Stop!!!' );
+
 define( 'NV_IS_MOD_REDDAY', true );

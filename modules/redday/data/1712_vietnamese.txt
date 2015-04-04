@@ -1,13 +1,13 @@
-a:4:{i:0;s:0:"";i:1;a:4:{i:0;s:978:"Thiền sư Mãn Giác, tên thật là Lý Trường, sinh nǎm 1052, viên tịch ngày 17-12-1096.
+a:4:{i:0;s:0:"";i:1;a:4:{i:0;s:974:"Thiền sư Mãn Giác, tên thật là Lý Trường, sinh nǎm 1052, viên tịch ngày 17-12-1096.
 Thông hiểu cả Nho giáo và Phật giáo nên lúc 20 tuổi ông đã được chọn vào cung dạy Hoàng tử. Ít lâu sau, ông đi tu được sư Quảng Trí truyền tâm ấn, nối truyền thế hệ thứ 8 dòng thiền Quan Bích, có nhiều học trò theo học.
 Vua Lý Nhân Tông và Hoàng hậu rất trọng đãi ông, cho xây cất một ngôi chùa để ông trụ trì, thường gọi ông là Trưởng lão, hay mời đến hỏi han giáo lý và bàn việc nước.
-Thiền sư Mãn Giác còn để lại một bài kệ nổi tiếng có tên là \"Cáo tật thị chúng\" được dịch ra quốc âm như sau:
-\"Xuân ruổi trǎm hoa rụng
+Thiền sư Mãn Giác còn để lại một bài kệ nổi tiếng có tên là "Cáo tật thị chúng" được dịch ra quốc âm như sau:
+"Xuân ruổi trǎm hoa rụng
 Xuân tới trǎm hoa cười
 Trước mặt, việc đi mãi
 Trên đầu già đến rồi!
 Đừng tưởng xuân tàn, hoa rụng hết
-Đêm qua sân trước một nhành mai\".";i:1;s:466:"Nhà yêu nước Trần Xuân Soạn, sinh nǎm 1849, quê ở Thanh Hoá.
+Đêm qua sân trước một nhành mai".";i:1;s:466:"Nhà yêu nước Trần Xuân Soạn, sinh nǎm 1849, quê ở Thanh Hoá.
 Nǎm 1885, kinh thành Huế thất thủ, ông cùng Đại thần Tôn Thất Thuyết đưa vua Hàm Nghi ra Hà Tĩnh, rồi về Thanh Hoá chỉ đạo kháng chiến.
 Khi nghĩa quân suy yếu, ông sang Trung Quốc, tìm gặp Tôn Thất Thuyết ở Long Châu nhằm tổ chức các toán quân về hoạt động ở biên giới.
 Ông mất ở Long Châu ngày 17-12-1923.";i:2;s:678:"Từ 7h đến 12h ngày 17-12-1946, máy bay thám thính Pháp bay dò xét bầu trời thành phố Hà Nội.

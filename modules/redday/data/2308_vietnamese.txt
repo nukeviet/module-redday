@@ -1,12 +1,1 @@
-a:4:{i:0;s:0:"";i:1;a:3:{i:0;s:1027:"Ngày 23-8-1907, nhà viết kịch bản tuồng Đào Tấn qua đời. Ông sinh nǎm 1845 ở xã Tuy Lộc, huyện Tuy Phước, tỉnh Bình Định.
-Cuộc đời ông có nhiều nét đặc biệt: 3 lần làm tổng đốc, 4 lần làm thượng thư, nhưng cuối cùng ông là một nghệ sĩ lớn nhất của Việt Nam ở thế kỷ XIX. Là một người yêu nước ông có quan hệ mật thiết với các lãnh tụ của phong trào Cần Vương chống Pháp xâm lược nước ta.
-Đào Tấn là một diễn viên xuất sắc, một đạo diễn tài nǎng, một nhà thơ độc đáo và là một trong những nhà lý luận sân khấu đầu tiên ở nước ta.
-Ông để lại mấy trǎm bài thơ và từ, 30 vở tuồng, trong đó có nhiều vở mẫu mực, có vở dài 10 hồi, diễn tới 100 đêm và \"Hí trường tuỳ bút\" là tập lý luận sân khấu rất có giá trị.
-Tỉnh Bình Định có một nhà hát tuồng mang tên Đào Tấn.";i:1;s:1531:"Bút Tre tên thật là Đặng Vǎn Đǎng, sinh ngày 23-8-1911 tại xã Đồng Lương, Sông Thao, Phú Thọ. Trước Cách mạng, ông dạy học ở Tuyên Quang. Tháng 6-1946 ông được vinh dự đứng trong hàng ngũ những người cộng sản. Nǎm 1947, ông làm báo Giải phóng khu X. Nǎm 1956 ông về Bộ Ngoại giao làm bí thư cho Thứ trưởng Ung Vǎn Khiêm. Nǎm 1960 trở về quê làm trưởng phòng thông tin Uỷ ban hành chính tỉnh, sau đó ông phụ trách báo Phú Thọ. Nǎm 1962 ông được bổ nhiệm Trưởng ty vǎn hoá Phú Thọ và nǎm 1968 làm phó ban tuyên giáo tỉnh uỷ. Ông nghỉ hưu nǎm 1970.
-Tác phẩm thơ đã xuất bản: \"Rừng cọ đồi chè\"; \"Phú Thọ lớn lên\"; \"Sông Lô - sông Chảy\"; \"Đồng Tâm thắm thịt thay da\"; \"Một ngày của Phú Thọ\" v.v... Ông được Nhà nước thưởng Huân chương Kháng chiến chống Pháp hạng Ba, Huân chương Kháng chiến chống Mỹ hạng Nhì và huy hiệu 40 nǎm tuổi Đảng. Thơ Bút Tre độc đáo bởi một lối thể hiện chân thật, với hình thức ngân nga hoặc kéo dài. Nét đặc biệt của ông là khả nǎng ứng tác. Chính khả nǎng này đã tạo ra lối thơ Bút Tre mà nhiều người đôi khi lầm tưởng hoặc mô phỏng cho những bài thơ khác, thậm chí mô phỏng theo lối đùa tếu rồi lại gán cho sáng tác của ông. Bút Tre mất ngày 18-5-1987.";i:2;s:834:"Bảo tàng lịch sử Hồ Chí Minh (đặt trong Thảo Cầm Viên của thành phố) được thành lập ngày 23-8-1979.
-Với hai nghìn mét vuông diện tích trưng bày, bảo tàng gồm có các phòng chính.
-- Phòng giới thiệu khái quát đất nước, con người Việt Nam
-- Phòng trưng bày các di vật, công cụ bằng đá.
-- Phòng nói về giai đoạn chống ngoại xâm qua các thời kỳ dựng nước và giữ nước.
-- Phòng dân tộc học bày một số hiện vật và hình ảnh về sinh hoạt vật chất và tinh thần của 54 dân tộc ở Việt Nam.
-- Phòng giới thiệu về Sài Gòn xưa, về các chuyên đề, các hiện vật như đồ gốm thời Lý, Trần (thế kỷ XI - XIV), đồ mỹ nghệ dân gian, di vật vǎn hoá Óc Eo, v.v...";}i:2;a:0:{}i:3;s:0:"";}
+a:2:{i:0;s:0:"";i:1;a:0:{}}
