@@ -37,7 +37,7 @@
     <div class="redday-event0">{reddayevent0}</div>
     <!-- BEGIN: stateevents -->
     <div class="redday-event">{LANG.stateevents}</div>
-    <div>
+    <div class="redday-content">
         <ul>
             <!-- BEGIN: loop_stateevents -->
             <li>{stateevents}</li>
@@ -47,7 +47,7 @@
     <!-- END: stateevents -->
     <!-- BEGIN: interevents -->
     <div class="redday-event">{LANG.interevents}</div>
-    <div>
+    <div class="redday-content">
         <ul>
             <!-- BEGIN: loop_interevents -->
             <li>{interevents}</li>
@@ -57,7 +57,7 @@
     <!-- END: interevents -->
     <!-- BEGIN: otherevents -->
     <div class="redday-event">{LANG.otherevents}</div>
-    <div>
+    <div class="redday-content">
         <ul>
             <!-- BEGIN: loop_otherevents -->
             <li>{otherevents}</li>

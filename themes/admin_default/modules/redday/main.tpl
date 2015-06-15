@@ -68,7 +68,7 @@
 	                <input type="hidden" value="{day}" name="day" />
 	                <input type="hidden" value="{month}" name="month" />
 	                <input class="btn btn-primary" type="submit" value="&nbsp;Save&nbsp;" name="Submit1" />&nbsp;
-	                <input type="reset" value="&nbsp;Reset&nbsp;" name="Reset1" />
+	                <input type="reset" class="btn btn-reset" value="&nbsp;Reset&nbsp;" name="Reset1" />
 	            </td>
 	        </tr>
 	    </tbody>
