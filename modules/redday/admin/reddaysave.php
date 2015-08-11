@@ -65,7 +65,7 @@ $fl = @fopen( $cache_file, "w" );
 
 $nv_redirect = NV_BASE_ADMINURL . "index.php?" . NV_LANG_VARIABLE . "=" . NV_LANG_DATA . "&" . NV_NAME_VARIABLE . "=" . $module_name;
 $info = "<div style='text-align:center;'>" . $lang_module['save_ok'] . "<br /><br />\n";
-$info .= "\n<img border=\"0\" src=\"" . NV_BASE_SITEURL . "images/load_bar.gif\"><br /><br />\n";
+$info .= "\n<img border=\"0\" src=\"" . NV_BASE_SITEURL . NV_ASSETS_DIR . "/images/load_bar.gif\"><br /><br />\n";
 $info .= "[<a href=\"" . $nv_redirect . "\">" . $lang_module['redirect_to_home'] . "</a>]\n</div>";
 $contents .= $info;
 $contents .= "<meta http-equiv=\"refresh\" content=\"2;url=" . nv_url_rewrite( $nv_redirect ) . "\" />";
