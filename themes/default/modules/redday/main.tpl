@@ -2,7 +2,7 @@
 <div>
     <!-- BEGIN: error -->
     <div style="text-align:center;color:#f00;font-weight:bold;">{ERROR}</div>
-	<!-- END: error -->
+    <!-- END: error -->
     <form class="form-inline" method="post" action="{ACTION}">
         <table class="table table-striped table-bordered table-hover">
             <tbody>
