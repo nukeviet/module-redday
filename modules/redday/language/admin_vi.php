@@ -7,10 +7,8 @@
  * @License GNU/GPL version 2 or any later version
  * @Createdate 2-9-2010 14:43
  */
-
-if( ! defined( 'NV_ADMIN' ) or ! defined( 'NV_MAINFILE' ) )
-{
-	die( 'Stop!!!' );
+if (!defined('NV_ADMIN') or !defined('NV_MAINFILE')) {
+    die('Stop!!!');
 }
 $lang_translator['author'] = 'VINADES.,JSC (contact@vinades.vn)';
 $lang_translator['createdate'] = '04/03/2010, 15:22';
@@ -36,3 +34,6 @@ $lang_module['redirect_to_home'] = 'Click để chuyển về trang chủ';
 
 $lang_module['error_month2'] = 'Lỗi: Tháng 2 không có ngày thứ %s';
 $lang_module['error_month'] = 'Lỗi: Tháng % không có ngày thứ %s';
+
+$lang_module['reddaySave'] = 'Viết xuống';
+$lang_module['reddayReset'] = 'Hoàn tác';
