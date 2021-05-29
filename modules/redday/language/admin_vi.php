@@ -1,17 +1,18 @@
 <?php
 
 /**
- * @Project NUKEVIET 4.x
- * @Author VINADES.,JSC (contact@vinades.vn)
- * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
- * @License GNU/GPL version 2 or any later version
- * @Createdate 2-9-2010 14:43
- */
+* @Project NUKEVIET 4.x
+* @Author VINADES.,JSC (contact@vinades.vn)
+* @Copyright (C) 2016 VINADES.,JSC. All rights reserved
+* @Language English
+* @License CC BY-SA (http://creativecommons.org/licenses/by-sa/4.0/)
+* @Createdate Mar 04, 2010, 08:22:00 AM
+*/
 
-if( ! defined( 'NV_ADMIN' ) or ! defined( 'NV_MAINFILE' ) )
-{
-	die( 'Stop!!!' );
+if (!defined('NV_ADMIN') or !defined('NV_MAINFILE')) {
+    die('Stop!!!');
 }
+
 $lang_translator['author'] = 'VINADES.,JSC (contact@vinades.vn)';
 $lang_translator['createdate'] = '04/03/2010, 15:22';
 $lang_translator['copyright'] = '@Copyright (C) 2012 VINADES.,JSC. All rights reserved';
@@ -33,6 +34,7 @@ $lang_module['reddayadmin'] = 'Ngày này năm xưa';
 $lang_module['notauthorized'] = 'Bạn không có quyền truy cập vào khu vực này';
 $lang_module['save_ok'] = 'Lưu dữ liệu thành công !';
 $lang_module['redirect_to_home'] = 'Click để chuyển về trang chủ';
-
 $lang_module['error_month2'] = 'Lỗi: Tháng 2 không có ngày thứ %s';
 $lang_module['error_month'] = 'Lỗi: Tháng % không có ngày thứ %s';
+$lang_module['reddaySave'] = 'Viết xuống';
+$lang_module['reddayReset'] = 'Hoàn tác';
