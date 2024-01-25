@@ -19,6 +19,7 @@
 /includes/
 /install/
 /uploads/
+/vendor/
 
 # Ignore fix module files and directories.
 /modules/*
@@ -37,3 +38,7 @@
 !/themes/default/images/redday/*
 !/themes/default/modules/redday
 !/themes/default/modules/redday/*
+api.php
+error.php
+LICENSE
+composer.json
