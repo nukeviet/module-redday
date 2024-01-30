@@ -1,9 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:4:{i:0;s:394:"Vào ngày 17-3-1930, tại nhà số 42 phố Nhà Thiếc, Ban Chấp hành lâm thời Đảng bộ Hà Nội (của Đảng Cộng sản Đông Dương) đã được thành lập. 
-Ban Chấp hành Đảng bộ Hà Nội gồm có ba đồng chí: Đỗ Ngọc Du, Nguyễn Ngọc Vũ và Lều Thọ Nam. Bí thư đầu tiên của Thành ủy Hà Nội là đồng chí Đỗ Ngọc Du.";i:1;s:354:"Nhà bảo tàng của Trường Viễn Đông Bác Cổ ở Hà Nội được khởi công tháng 1-1926 và ngày 17-3-1931 được khánh thành. 
-Công trình này được coi là một trong những tác phẩm kiến trúc đặc sắc và độc đáo ở Đông Dương. Hiện nay toà nhà này là Viện Bảo tàng lịch sử Việt Nam.";i:2;s:659:"Ngày 17-3-1963 Hồ Chủ tịch đến thǎm nhà ǎn khu tập thể Kim Liên.
-Bác đi xem nơi chia cơm và thức ǎn, chỉ tay lên chiếc bóng đèn và một góc trần nhà, Bác phê bình: "Nơi chia thức ǎn sao để bẩn thế này?". Chị Lan phụ trách nhà ǎn nói: "Thưa Bác chúng cháu xin sửa chữa ạ."
-Sau đó Bác đi xuống nhà bếp, nhà tắm, nhà vệ sinh. Trước khi ra về Bác cǎn dặn các nhân viên, cán bộ nhà ǎn Kim Liên:
-- Kim là vàng, Liên là sen - Kim Liên là sen vàng. Đã là hoa sen vàng, các cháu phải phấn đấu sao cho hương thơm toả mỗi ngày một xa.";i:3;s:666:"17-3-1975, bộ đội ta đã giải phóng hai thị xã Kontum và Plâycu trong chiến dịch Tây Nguyên 
-Thị xã Tây Nguyên được xây dựng trên bờ sông Đắc Pla, một nhánh của sông Pô Cô, giữa một đồng bằng nhỏ, ở độ cao 525 mét so với mặt biển. Kontum là trung tâm hành chính của Pháp ở Tây Nguyên trước đây.
-Thực dân Pháp xây ở đây một nhà tù lớn để giam giữ các chiến sĩ cách mạng.
-Còn thị xã Plâycu được xây dựng giữa cao nguyên đất đỏ, màu mỡ, bằng phẳng, có đồng bào Giarai, có nhiều nông trường trồng cà phê và chè.";}i:2;a:0:{}i:3;s:0:"";}

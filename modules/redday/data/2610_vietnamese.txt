@@ -1,5 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:1:{i:0;s:513:"Ngày 26-10-1967, với hai sư đoàn bộ binh số 7 và 9 cùng một số đơn vị kỹ thuật yểm trợ, quân giải phóng miền Nam đã mở đầu chiến dịch Lộc Ninh.
-Sau hơn một tháng tiến công quân Mỹ - Nguỵ, các đơn vị quân giải phóng đã đánh 60 trận (có hai trận cấp sư đoàn) loại khỏi vòng chiến đấu 5400 tên địch (trong đó có 2900 tên Mỹ) bắt 617 tên, phá huỷ 103 xe quân sự, 63 khẩu pháo, thu 172 súng các loại.";}i:2;a:2:{i:0;s:211:"Nhạc sĩ người Italia Dominico Xcáclát sinh ngày 26-10-1685 tại Napôli. Ông được coi là người tiền thân về sáng tác Xônát trong âm nhạc.
-Ông mất ngày 23-7-1757 tại Mađrít.";i:1;s:462:"Êvarít Galoa (Évaiste Galois), sinh ngày 26-10-1811 ở Bualaren gần thủ đô Pari.
-Ông là nhà toán học thiên tài, người được cơ sở cho đại số hiện đại.
-Năm 1832, mới 21 tuổi, Galoa bị chết trong một trận quyết đấu. Đêm hôm trước, Galoa ghi lại trên 60 trang giấy các phát minh chủ yếu của mình. Phải 40 năm sau, thế giới toán học mới hiểu hết được lý thuyết Galoa.";}i:3;s:0:"";}

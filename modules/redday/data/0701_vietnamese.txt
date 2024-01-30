@@ -1,9 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:2:{i:0;s:319:"Ngày 7-1-1979, nhờ sự giúp đỡ của quân đội tình nguyện Việt Nam, nhân dân Campuchia đã lật đổ chế độ diệt chủng Pôn Pốt, giải phóng Thủ đô Phnôm Pênh.
-Nước cộng hoà nhân dân Campuchia và Hội đồng nhân dân Cách mạng Campuchia tuyên bố thành lập.";i:1;s:612:"Nhà vǎn, nhà báo Tam Lang, tên thật là Vũ Đình Chí, quê ở tỉnh Bắc Ninh, sinh nǎm 1901 ở Hà Nội, mất ngày 7-1-1986 tại thành phố Hồ Chí Minh.
-Ông chuyên viết phóng sự và nổi tiếng ở thể lệ loại này từ khi viết bài phóng sự đầu tay có nhan đề "Tôi kéo xe" (In báo nǎm 1935).
-Phóng sự đã mở ra cho làng vǎn, làng báo nước ta một thể loại mới gây nên tiếng vang trong sinh hoạt vǎn học hồi đó. Kể từ ấy, hằng nǎm Tam Lang viết hàng loạt phóng sự sống động về xã hội Việt Nam.";}i:2;a:2:{i:0;s:953:"Lép Nicôlaêvich Tônxtôi sinh nǎm 1828 trong một gia đình quí tộc ở Nga. Ông qua đời ngày 7-1-1910.
-Thời thơ ấu, Tônxtôi sống gần gũi nông dân và thiên nhiên Nga. Nǎm 16 tuổi đã vào học trường đại học, say mê vǎn học và âm nhạc, chịu ảnh hưởng sâu sắc triết học tiến bộ của phái Ánh sáng Pháp. Ông đã từng là sĩ quan pháo binh, chiến đấu chống lại quân xâm lược Thổ Nhĩ Kỳ, Anh và Pháp.
-Trong 60 nǎm, hầu như không ngày nào Tônxtôi không viết. Bạn đọc Việt Nam rất yêu mến Lép Tônxtôi qua các tiểu thuyết: Chiến tranh và hoà bình, Anna Karênina và Phục sinh.
-Lep Tônxtôi là nghệ sĩ vĩ đại của dân tộc Nga nửa cuối thế kỷ XIX, nói lên được những tư tưởng và tâm trạng đã hình thành trong hàng triệu nông dân Nga khi bắt đầu Cách mạng tư sản.";i:1;s:315:"Nicola Tesla sinh nǎm 1856, mất ngày 7-1-1943 là kĩ sư người Nam Tư, di cư sang Mỹ.
-Ông có nhiều phát minh quan trọng về điện kĩ thuật và vô tuyến điện (điện đa pha, bộ đổi điện v.v...)
-Tên ông được đặt cho đơn vị cảm ứng từ và viết tắt là T.";}i:3;s:0:"";}
