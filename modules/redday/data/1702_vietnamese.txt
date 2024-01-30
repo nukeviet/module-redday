@@ -1,5 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:2:{i:0;s:608:"Ngày 17-2-1947, kết thúc 60 ngày đêm chiến đấu dũng cảm của quân và dân Thủ đô. Trong 60 ngày đêm quân dân Thủ đô đã tiêu diệt gần 2000 tên địch, nổi tiếng với những trận đánh ở nhà Xôva, chợ Đồng Xuân, trường Trần Nhật Duật, hoàn thành nhiệm vụ tiêu hao sinh lực địch và giam chân một lực lượng lớn quân đội Pháp ở Hà Nội. Đêm 17-2 các chiến sĩ quyết tử Thủ đô được lệnh bí mật rút khỏi Hà Nội vượt sông Hồng sang vùng tự do ở Vĩnh Phú một cách an toàn.";i:1;s:629:"Lê Hữu Trác, hiệu Hải Thượng Lãn Ông, quê ở tỉnh Hưng Yên, sinh nǎm 1720, mất ngày 17-2-1791. 
-Ông đỗ hương cống nhưng không làm quan. Lê Hữu Trác là một đại danh y, nhà vǎn, nhà thơ và nhà tư tưởng lớn thời Lê Mạt.
-Các tác phẩm tiêu biểu của ông là:
-Hải Thượng y tông tâm lĩnh khảo cứu về y học và thảo dược học, nêu lên những phương thuốc chữa bệnh, biên soạn trong gần 40 nǎm.
-Thượng kinh ký sự là tập bút ký kể lại cuộc hành trình của ông lên Thǎng Long chữa bệnh cho Chúa Trịnh.";}i:2;a:0:{}i:3;s:0:"";}

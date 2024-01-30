@@ -1,9 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:3:{i:0;s:298:"Ngày 31-8-1952, quân ta đột kích vị trí Phú Thọ của địch (ở gần Sài Gòn), phá huỷ một kho xǎng 3 triệu lít một kho dầu 2 triệu lít, một kho vũ khí gồm 100 quả bom loại 500 kg và 2 triệu viên đạn, tiêu diệt một đại đội lính Âu Phi";i:1;s:890:"Tháng 8-1961, nhân dịp nhà danh họa Picátxô 80 tuổi Chủ tịch Hồ Chí Minh đã gửi tới người bạn hoạ sĩ bức thư chúc mừng.
-Trong thư Người viết: "Đồng chí Picátxô thuộc vào những con người luôn luôn trẻ, bởi vì những người ấy sôi nổi trong tâm hồn và một tình yêu say mê cái thiện, cái mỹ, với hoà bình và nhân đạo. Tình yêu ấy đã dẫn dắt Picátxô đên với chủ nghĩa cộng sản, và vì thế, hoạ sĩ mãi mãi giữ được tuổi xuân.
-Con chim bồ câu hoà bình Picátxô vẽ, rất quen thuộc với nhân dân Việt Nam và nhân dân khắp thế giới, đã thể hiện một cách rực rỡ lòng tin mãnh liệt của nhà nghệ sĩ lớn ấy là sự vươn tới hoà bình không gì có thể ngǎn cản nổi của nhân dân các dân tộc".";i:2;s:968:"Ngày 31-8-1991 Hội đồng Bộ trưởng ra quyết định "Tổ chức và sắp xếp mạng lưới các trường trong hệ thống giáo dục quốc dân".
-Mục tiêu nguyên tắc của việc sắp xếp lại mạng lưới là:
-1- Việc sắp xếp mạng lưới trường học không nhằm thu hẹp sự phát triển, mà phải tạo điều kiện để tiếp tục mở rộng qui mô, nâng cao chất lượng và hiệu quả của hệ thống giáo dục quốc dân.
-2- Xoá bỏ những bất hợp lý đang tồn tại trong mạng lưới trường học.
-3- Thực hiện đa dạng hoá các hình thức đào tạo chính quy và không chính quy.
-4- Gắn chặt quá trình đào tạo với quá trình sử dụng lực lượng lao động.
-5- Cải tiến mạnh mẽ công tác quản lý giáo dục đào tạo từ cơ sở trong trường học đến toàn ngành, theo hướng đảm bảo tính thống nhất.";}i:2;a:1:{i:0;s:299:"Ngày 31-8-1990, đại diện hai chính phủ Cộng hoà liên bang Đức và Cộng hoà dân chủ Đức ký kết "Hiệp ước thống nhất". Các bang của Cộng hoà dân chủ Đức sáp nhập vào Cộng hoà liên bang Đức. Thủ đô của nước thống nhất là Beclin.";}i:3;s:0:"";}

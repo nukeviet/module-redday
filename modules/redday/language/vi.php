@@ -30,3 +30,4 @@ $lang_module['rderrdate'] = 'Ngày không hợp lệ, hãy chọn ngày khác!';
 $lang_module['stateevents'] = 'Sự kiện trong nước';
 $lang_module['interevents'] = 'Sự kiện ngoài nước';
 $lang_module['otherevents'] = 'Sự kiện khác';
+$lang_module['error_month'] = 'Lỗi: Tháng %s không có ngày thứ %s';

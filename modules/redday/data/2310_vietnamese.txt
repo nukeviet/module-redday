@@ -1,4 +1,0 @@
-a:2:{i:0;s:0:"";i:1;a:1:{i:0;s:868:"Ngày 23-10-1896 thành lập trường Quốc học Huế. 
-Nhiều học trò của trường sau này đã trở thành danh nhân văn hoá, những nhà cách mạng tiền bối, những nhà khoa học lớn, các nhà văn, hoạ sĩ, nhạc sĩ nổi tiếng của nước ta. Những tên tuổi tiêu biểu như: Hồ Chí Minh, Trần Phú, Phạm Văn Đồng, Võ Nguyên Giáp, Nguyễn Chí Diểu, Tố Hữu, Tạ Quang Bửu, Hải Triều, Nguyễn Khánh Toàn, Xuân Diệu, Huy Cận,v.v.... làm rạng danh nhà trường.
-Từ năm 1975 đến nay, có nhiều học sinh Quốc học Huế đoạt giải trong các kỳ thi quốc tế.
-Từ năm 1995, trường Quốc học Huế là một trong ba trường trong cả nước được Bộ Giáo dục và đào tạo chọn làm trường phổ thông trung học chất lượng cao.";}}
