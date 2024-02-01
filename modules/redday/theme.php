@@ -12,7 +12,7 @@ if( ! defined( 'NV_IS_MOD_REDDAY' ) ) die( 'Stop!!!' );
 
 function nv_theme_redday_main( $array_data, $error )
 {
-	global $module_name, $module_file, $lang_module, $module_info, $op, $day, $month;
+	global $module_name, $module_file, $lang_module, $module_info, $op, $day, $month, $global_array_cats;
 
 	$xtpl = new XTemplate( $op . '.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/' . $module_file );
 	$xtpl->assign( 'LANG', $lang_module );
@@ -41,7 +41,16 @@ function nv_theme_redday_main( $array_data, $error )
 		$xtpl->assign( 'MONTH', $array );
 		$xtpl->parse( 'main.loop_month' );
 	}
-	if( ! empty( $array_data ) )
+
+    foreach ($array_data as $catid => $rows) {
+        $xtpl->assign('CAT', $global_array_cats[$catid]);
+        foreach ($rows as $row) {
+            $xtpl->assign('LOOP', $row);
+            $xtpl->parse('main.cats.loop');
+        }
+        $xtpl->parse('main.cats');
+    }
+	/* if( ! empty( $array_data ) )
 	{
 		if( ! empty( $array_data[0] ) )
 		{
@@ -75,7 +84,7 @@ function nv_theme_redday_main( $array_data, $error )
             $xtpl->parse( 'main.content.otherevents' );
 		}
         $xtpl->parse( 'main.content' );
-	}
+	} */
 	$xtpl->parse( 'main' );
 	return $xtpl->text( 'main' );
 }
