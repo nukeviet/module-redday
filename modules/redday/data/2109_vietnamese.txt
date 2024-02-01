@@ -1,9 +1,0 @@
-a:3:{i:0;s:0:"";i:1;a:3:{i:0;s:507:"Từ ngày 21 đến 22-9-1946, cuộc thi trẻ em khoẻ và đẹp lần đầu tiên ở nước ta đã được tổ chức tại Ấu Trĩ viên (Nay là Cung Thiếu nhi Hà Nội). Có 300 trẻ em dưới 30 tháng tuổi đã dự thi, chia làm 3 nhóm:
-- Nhóm A từ lọt lòng đến 6 tháng
-- Nhóm B từ hơn 6 tháng đến 12 tháng
-- Nhóm C Từ hơn 12 tháng đến 30 tháng.
-Đáng chú ý hầu hết những em được giải thưởng đều được nuôi bằng sữa mẹ.";i:1;s:1105:"Nhà báo, nhà nhiếp ảnh Đinh Thuý hy sinh ngày 21-9-1967 tại mặt trận Trảng Dầu (nay thuộc tỉnh Tây Ninh).
-Anh tên thật là Bùi Đình Tuý, sinh năm 1914, quê ở xã Cảnh Dương, huyện Quảng Trạch, tỉnh Quảng Bình.
-Anh ra Hà Nội học nghề ảnh và nghề vẽ. Sau đó vào Sài Gòn làm thợ vẽ cho một hãng chiếu bóng ở tại đây anh đã bị địch bắt do hoạt động yêu nước. Sau khi trốn khỏi nhà tù, anh tham gia phong trào Việt Minh đặc khu Sài Gòn - Chợ Lớn. Sau Cách mạng Tháng Tám 1945, Đinh Thuý được phân công phụ trách công tác nhiếp ảnh của Sở Thông tin Sài Gòn, làm phóng viên báo "Cảm tử". Trong những năm kháng chiến chống Pháp, anh là phóng viên ảnh tại mặt trận. Năm 1954, anh tập kết ra Bắc, công tác tại Thông tấn xã Việt Nam. Năm 1961, được cử sang Cộng hoà Dân chủ Đức học ảnh màu và năm 1962 là người đầu tiên xây dựng cơ sở ảnh màu và chụp ảnh màu ở Hà Nội.";i:2;s:532:"Ngân hàng thế giới công nhận nước Cộng hoà xã hội chủ nghĩa Việt Nam là hội viên chính thức ngày 21-9-1976.
-Ngân hàng thế giới (viết tắt là W.B) ra đời từ tháng 7-1944 nhưng chính thức hoạt động từ ngày 25-6-1946.
-Nó được coi là chiếc cầu nối giữa thị trường tài chính quốc tế với các nước nghèo và đang phát triển. Nó cung cấp cho các nước này các khoản tín dụng theo chương trình với các điều kiện ưu đãi.";}i:2;s:0:"";}

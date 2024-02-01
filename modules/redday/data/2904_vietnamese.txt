@@ -1,7 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:3:{i:0;s:311:"Ngày 29-4-1946 Hồ Chủ tịch ký sắc lệnh qui định công nhân viên chức được hưởng lương ngày nghỉ lễ Quốc tế lao động 1-5. Lần đầu tiên, ngày Hội lao động quốc tế 1-5 được công nhận là ngày Hội chính thức của người lao động Việt Nam.";i:1;s:348:"Chiều ngày 29-4-1955 Chủ tịch Hồ Chí Minh đã đến thǎm Đại hội thi đua Thành phố Hà Nội - Người đã tặng huy hiệu cho 35 đại biểu có thành tích thi đua khá nhất.
-Đây là lần đầu tiên Hồ Chủ tịch tặng huy hiệu của Người cho những người tốt làm việc tốt ở Hà Nội.";i:2;s:1133:"Ngày 29-4-1975, tổng tiến công trên toàn bộ mặt trận, ngǎn chặn và tiêu diệt các tập đoàn chủ lực bên ngoài, thọc sâu vào bên trong, cùng lực lượng tại chỗ đánh chiếm các địa bàn quan trọng ở vùng ven, làm tê liệt hoàn toàn sân bay Tân Sơn Nhất.
-Ở hướng đông, ta tiếp tục phát triển tiến công cǎn cứ Nước Trong, nam cǎn cứ Long Bình, đánh chiếm phần lớn thị xã Vũng Tàu. Binh đoàn thọc sâu của quân đoàn 2 tiến tới cầu xa lộ Đồng Nai.
-Quân đoàn 4 đánh chiến cǎn cứ Yên Thế, tranh chấp Hố Nai, sân bay Biên Hoà.
-Ở hướng Bắc và Tây Bắc, Quân đoàn 1 tiến tới Bắc Lái Thiêu, Quân đoàn 3 chiếm cǎn cứ Đồng Dù, Trảng Bàng, phát triển tiến công trại huấn luyện Quang Trung, Bà Quẹo.
-Ở hướng Tây Nam và Nam, Đoàn 232 chiếm chi khu Đức Huệ thị xã Hậu Nghĩa, có đơn vị tiến vào được Bà Quẹo, Bà Lác.
-Trong ngày 29-4-1975, ta đã giải phóng Biên Hoà, Thủ Dầu Một, Tân An và Vũng Tàu.";}i:2;a:0:{}i:3;s:0:"";}
