@@ -22,7 +22,7 @@ $sql_create_module = $sql_drop_module;
 $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $lang . "_" . $module_data . "_cats (
     id smallint(4) unsigned NOT NULL AUTO_INCREMENT,
     title varchar(250) NOT NULL,
-    description text DEFAULT '',
+    description text DEFAULT NULL,
     add_time int(11) NOT NULL DEFAULT 0,
     edit_time int(11) NOT NULL DEFAULT 0,
     status tinyint(1) NOT NULL DEFAULT 1,

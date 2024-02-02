@@ -8,7 +8,9 @@
  * @Createdate 2-9-2010 14:43
  */
 
-if( !defined( 'NV_IS_FILE_ADMIN' ) ) die( 'Stop!!!' );
+if (!defined('NV_IS_FILE_ADMIN')) {
+    die('Stop!!!');
+}
 
 $page_title = $lang_module['add_content'];
 $per_page = 10;
@@ -65,18 +67,18 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
     $array['content'] = nv_editor_nl2br($array['content']);
 
     $arr_allow_date = [
-        1 => 31, 
-        2 => 29, 
-        3 => 31, 
-        4 => 30, 
-        5 => 31, 
-        6 => 30, 
-        7 => 31, 
-        8 => 31, 
-        9 => 30, 
-        10 => 31, 
-        11 => 30, 
-        12 => 31, 
+        1 => 31,
+        2 => 29,
+        3 => 31,
+        4 => 30,
+        5 => 31,
+        6 => 30,
+        7 => 31,
+        8 => 31,
+        9 => 30,
+        10 => 31,
+        11 => 30,
+        12 => 31,
     ];
 
     // Xử lý dữ liệu
@@ -90,7 +92,7 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
     }
     if (!nv_is_file($array['image'], NV_UPLOADS_DIR . '/' . $module_upload)) {
         $array['image'] = '';
-    } 
+    }
 
     if (!in_array($array['month'], array_keys($arr_allow_date))) {
         $error[] = $lang_module['main_error_month_match'];
@@ -123,7 +125,7 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
             $sth->execute();
 
             if ($id) {
-                nv_insert_logs(NV_LANG_DATA, $module_name, 'LOG_EDIT_CONTENT', $id , $admin_info['userid']);
+                nv_insert_logs(NV_LANG_DATA, $module_name, 'LOG_EDIT_CONTENT', $id, $admin_info['userid']);
             } else {
                 nv_insert_logs(NV_LANG_DATA, $module_name, 'LOG_ADD_CONTENT', '', $admin_info['userid']);
             }
@@ -148,11 +150,10 @@ if (defined('NV_EDITOR') and nv_function_exists('nv_aleditor')) {
     $array['content'] = '<textarea class="form-control" rows="10" name="content">' . $array['content'] . '</textarea>';
 }
 
-$xtpl = new XTemplate( $op . '.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file );
+$xtpl = new XTemplate($op . '.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file);
 $xtpl->assign('LANG', $lang_module);
 $xtpl->assign('GLANG', $lang_global);
 $xtpl->assign('OP', $op);
-$xtpl->assign('NV_CHECK_SESSION', NV_CHECK_SESSION);
 $xtpl->assign('DATA', $array);
 $xtpl->assign('UPLOAD_CURRENT', NV_UPLOADS_DIR . '/' . $module_upload);
 $xtpl->assign('UPLOAD_PATH', NV_UPLOADS_DIR . '/' . $module_upload);
@@ -162,21 +163,19 @@ if (!empty($error)) {
     $xtpl->parse('main.error');
 }
 
-for( $i = 1; $i <= 31; $i++ )
-{
+for ($i = 1; $i <= 31; $i++) {
     $array_day = [];
-	$array_day['value'] = $i;
-	$array_day['sl'] = ($i == $array['day']) ? " selected=\"selected\"" : "";
-	$xtpl->assign( 'DAY', $array_day );
-	$xtpl->parse( 'main.loop_day' );
+    $array_day['value'] = $i;
+    $array_day['sl'] = ($i == $array['day']) ? " selected=\"selected\"" : "";
+    $xtpl->assign('DAY', $array_day);
+    $xtpl->parse('main.loop_day');
 }
-for( $i = 1; $i <= 12; $i++ )
-{
+for ($i = 1; $i <= 12; $i++) {
     $array_month = [];
-	$array_month['value'] = $i;
-	$array_month['sl'] = ($i == $array['month']) ? " selected=\"selected\"" : "";
-	$xtpl->assign( 'MONTH', $array_month );
-	$xtpl->parse( 'main.loop_month' );
+    $array_month['value'] = $i;
+    $array_month['sl'] = ($i == $array['month']) ? " selected=\"selected\"" : "";
+    $xtpl->assign('MONTH', $array_month);
+    $xtpl->parse('main.loop_month');
 }
 
 if (!empty($array['catid'])) {
@@ -184,9 +183,9 @@ if (!empty($array['catid'])) {
     $xtpl->parse('main.cfg_cat');
 }
 
-$xtpl->parse( 'main' );
-$contents = $xtpl->text( 'main' );
+$xtpl->parse('main');
+$contents = $xtpl->text('main');
 
 include NV_ROOTDIR . '/includes/header.php';
-echo nv_admin_theme( $contents );
+echo nv_admin_theme($contents);
 include NV_ROOTDIR . '/includes/footer.php';

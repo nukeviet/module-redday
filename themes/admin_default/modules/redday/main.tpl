@@ -26,7 +26,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <input class="btn btn-primary" type="submit" value="{LANG.rdsubmit}"/>
+                    <input class="btn btn-primary" type="submit" value="{LANG.rdsubmit}" />
                 </div>
             </form>
         </div>

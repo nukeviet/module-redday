@@ -8,24 +8,26 @@
  * @Createdate 2-9-2010 14:43
  */
 
-if (!defined('NV_IS_FILE_ADMIN')) die('Stop!!!');
+if (!defined('NV_IS_FILE_ADMIN')) {
+    die('Stop!!!');
+}
 $page_title = 'Redday';
 $error = [];
 $day = $nv_Request->get_int('day', 'get', nv_date('j', NV_CURRENTTIME));
 $month = $nv_Request->get_int('month', 'get', nv_date('n', NV_CURRENTTIME));
 $arr_allow_date = [
-    1 => 31, 
-    2 => 29, 
-    3 => 31, 
-    4 => 30, 
-    5 => 31, 
-    6 => 30, 
-    7 => 31, 
-    8 => 31, 
-    9 => 30, 
-    10 => 31, 
-    11 => 30, 
-    12 => 31, 
+    1 => 31,
+    2 => 29,
+    3 => 31,
+    4 => 30,
+    5 => 31,
+    6 => 30,
+    7 => 31,
+    8 => 31,
+    9 => 30,
+    10 => 31,
+    11 => 30,
+    12 => 31,
 ];
 
 if (!in_array($month, array_keys($arr_allow_date))) {
