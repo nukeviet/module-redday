@@ -16,7 +16,7 @@ $page_title = $lang_module['add_content'];
 $per_page = 10;
 $error = [];
 
-if ($nv_Request->get_title('ajax_cfg_cat', 'post', '') === NV_CHECK_SESSION) {
+if ($nv_Request->get_title('ajax_check_cat', 'post', '') === NV_CHECK_SESSION) {
     $respon = [];
     $q = $nv_Request->get_title('q', 'post', '');
     if (!empty($q)) {
