@@ -1,7 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:2:{i:0;s:891:"Ngày 18-10-1961, tại thị xã Phủ Lý, Bộ Giáo dục đã phát động phong trào thi đua "Dạy tốt, học tốt" học tập trường phổ thông cấp II Bắc Lý trong toàn ngành giáo dục.
-Trường cấp II Bắc Lý thuộc huyện Lý Nhân, tỉnh Nam Hà, là trường dẫn đầu trong phong trào thi đua "Dạy tốt, học tốt", của ngành giáo dục. Nhà trường luôn luôn nắm vững mục tiêu đào tạo con người toàn diện, thực hiện phương châm kết hợp học tập với lao động sản xuất, học đi đôi với hành, gắn nhà trường với xã hội, thực hiện khẩu hiệu "Tất cả vì chủ nghĩa xã hội, tất cả vì học sinh thân yêu".
-Uỷ ban Thường vụ Quốc hội đã tặng thưởng Huân chương Lao động hạng nhất cho trường phổ thông cấp II Bắc Lý.";i:1;s:614:"Hiệp định tín dụng được Chính phủ Việt Nam và Ngân hàng phát triển châu Á (ADB) ký kết chính thức ngày 18-10-1996 với số tiền tương đương 50 triệu đôla Mỹ.
-Dự án này nhằm tăng thu nhập của nông dân ở nông thôn, tạo nhiều việc làm, củng cố hệ thống tài chính nông thôn.
-ADB hàng năm đã tài trợ cho Việt Nam từ 300 đến 500 triệu đôla Mỹ thông qua các dự án các chương trình và đi kèm là các khoản trợ giúp kỹ thuật. Trong 3 năm (từ 1993-1996) ADB cho Việt Nam vay hơn 1 tỷ đôla.";}i:2;a:1:{i:0;s:430:"Tômát Anva Êđixơn (Thomas Alva Adison) sinh năm 1847 tại nước Mỹ, qua đời ngày 18-10-1931.
-Êđixơn là tác giả của các phát minh: Máy điện báo tải hai, đa tải, máy đĩa hát, bóng đèn điện có dây tóc, xe điện, xe hoả chạy điện. Máy chiếu phim câm và phim nói, máy tách sắt ra khỏi quặng bằng từ trường v.v...
-Ông đã đăng ký hơn 1.200 phát minh.";}i:3;s:0:"";}

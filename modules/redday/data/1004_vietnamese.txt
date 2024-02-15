@@ -1,8 +1,0 @@
-a:4:{i:0;s:0:"";i:1;a:4:{i:0;s:572:"Ngày 10-4-1887, Nguyễn Phạm Tuân từ trần. Ông sinh nǎm 1842, quê ở Bắc Cử, huyện Lệ Thuỷ, tỉnh Quảng Bình.
-Ông đậu cử nhân thời vua Tự Đức, làm chi phủ huyện Đức Thọ, tỉnh Hà Tĩnh. Nǎm 1885, hưởng ứng chiếu Cần Vương của Vua Hàm Nghi, ông mộ binh chống thực dân Pháp, được phong chức Tán vương quân vụ quan thứ Quảng Bình. Nghĩa quân của ông chiến đấu giỏi, lập nhiều chiến công oanh liệt.
-Ở Hà Nội có một phố mang tên Nguyễn Phạm Tuân.";i:1;s:280:"Ngày 10-4-1946, Chủ tịch Chính phủ Việt Nam Dân chủ cộng hoà đã ban hành sắc lệnh "Đảm phụ quốc phòng" nhằm huy động của cải của nhân dân đóng góp cho nhu cầu kháng chiến chống thực dân Pháp và xây dựng đất nước.";i:2;s:370:"Dù có bận trǎm công nghìn việc, nhưng Bác vẫn luôn luôn dành thời gian cho các cháu nhi đồng một tình cảm đặc biệt thiết tha. Ngày 10-4-1946, bác làm thơ tặng các cháu:
-"Bác mong các cháu "cho ngoan"
-Mai sau gìn giữ giang san Lạc - Hồng
-Sao cho nổi tiếng Tiên - Rồng
-Sao cho tỏ mặt nhi đồng Việt Nam".";i:3;s:443:"Ngày 10-4-1957 tại Hà Nội đã tiến hành Đại hội thành lập Hội Liên hiệp Thanh niên thành phố Hà Nội. Đại Hội đã bầu bác sĩ Nguyễn Ngọc San, giảng viên trường đại học y khoa Hà Nội làm chủ tịch Hội.
-Đến nay Hội Liên hiệp Thanh niên Hà Nội hoạt động theo 4 loại hình: Theo đối tượng, theo sở thích, theo nghề nghiệp và theo địa bàn dân cư.";}i:2;a:2:{i:0;s:89:"Ngày 10-4-1972, Mỹ, Nga và 70 nước khác thoả thuận cấm vũ khí sinh học.";i:1;s:124:"10-4-1998: Các phe phái chính trị ở Bắc Ailen ký kết hiệp định hoà bình, kết thúc 30 nǎm xung đột.";}i:3;s:0:"";}
