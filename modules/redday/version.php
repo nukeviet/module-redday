@@ -16,9 +16,9 @@ if (!defined('NV_ADMIN') or !defined('NV_MAINFILE')) {
 $module_version = [
     'name' => 'Ngày này năm xưa',
     'modfuncs' => 'main',
-    'submenu' => 'main',
+    'submenu' => '',
     'is_sysmod' => 0,
-    'virtual' => 0,
+    'virtual' => 1,
     'version' => '4.5.00',
     'date' => 'Thursday, February 15, 2024 11:09:25 AM GMT+07:00',
     'author' => 'VINADES.,JSC <contact@vinades.vn>',

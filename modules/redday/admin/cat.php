@@ -83,8 +83,12 @@ if ($nv_Request->get_title('delete', 'post', '') === NV_CHECK_SESSION) {
         nv_htmlOutput('NO_' . $id);
     }
 
-    // Xóa
+    // Xóa cat
     $sql = "DELETE FROM " . NV_PREFIXLANG . "_" . $module_data . "_cats WHERE id=" . $id;
+    $db->query($sql);
+
+    // Xóa sự kiện trong cat
+    $sql = "DELETE FROM " . NV_PREFIXLANG . "_" . $module_data . "_rows WHERE catid=" . $id;
     $db->query($sql);
 
     // Cập nhật thứ tự

@@ -12,14 +12,6 @@ if (!defined('NV_ADMIN') or !defined('NV_MAINFILE') or !defined('NV_IS_MODADMIN'
     die('Stop!!!');
 }
 
-$allow_func = [
-    'cat',
-    'add_content',
-    'main'
-];
-
-$submenu['cat'] = $lang_module['cat'];
-$submenu['add_content'] = $lang_module['add_content'];
 define('NV_IS_FILE_ADMIN', true);
 
 $sql = "SELECT * FROM " . NV_PREFIXLANG . "_" . $module_data . "_cats ORDER BY weight ASC";

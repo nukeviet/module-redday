@@ -13,6 +13,11 @@ if (!defined('NV_IS_MOD_REDDAY')) {
     die('Stop!!!');
 }
 
+/**
+ * @param array $array_data
+ * @param array $error
+ * @return string
+ */
 function nv_theme_redday_main($array_data, $error)
 {
     global $module_name, $module_file, $lang_module, $module_info, $op, $day, $month, $global_array_cats;
@@ -32,24 +37,30 @@ function nv_theme_redday_main($array_data, $error)
     for ($i = 1; $i <= 31; $i++) {
         $array['value'] = $i;
         $array['sl'] = ($i == $day) ? " selected=\"selected\"" : "";
+
         $xtpl->assign('DAY', $array);
         $xtpl->parse('main.loop_day');
     }
+
     for ($i = 1; $i <= 12; $i++) {
         $array['value'] = $i;
         $array['sl'] = ($i == $month) ? " selected=\"selected\"" : "";
+
         $xtpl->assign('MONTH', $array);
         $xtpl->parse('main.loop_month');
     }
 
     foreach ($array_data as $catid => $rows) {
         $xtpl->assign('CAT', $global_array_cats[$catid]);
+
         foreach ($rows as $row) {
             $xtpl->assign('LOOP', $row);
             $xtpl->parse('main.cats.loop');
         }
+
         $xtpl->parse('main.cats');
     }
+
     $xtpl->parse('main');
     return $xtpl->text('main');
 }

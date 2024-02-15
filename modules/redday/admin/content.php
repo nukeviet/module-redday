@@ -13,28 +13,13 @@ if (!defined('NV_IS_FILE_ADMIN')) {
     die('Stop!!!');
 }
 
-$page_title = $lang_module['add_content'];
-$per_page = 10;
 $error = [];
 
-if ($nv_Request->get_title('ajax_check_cat', 'post', '') === NV_CHECK_SESSION) {
-    $respon = [];
-    $q = $nv_Request->get_title('q', 'post', '');
-    if (!empty($q)) {
-        $db->sqlreset()->select('COUNT(id)')->from(NV_PREFIXLANG . '_' . $module_data . '_cats');
-        $db->where("title LIKE '%" . $db->dblikeescape($q) . "%'");
-        $db->limit(10);
-        $db->select('id, title text')->order('title ASC')->limit($per_page);
-        $respon = $db->query($db->sql())->fetchAll() ?: [];
-    }
-    nv_jsonOutput($respon);
-}
-
-// Lấy id bài viết cần sửa nếu có
+// Lấy id sự kiện cần sửa nếu có
 $id = $nv_Request->get_int('id', 'get', 0);
-$array = [];
+
 if (!empty($id)) {
-    // Kiểm tra bài viết sửa
+    // Kiểm tra sự kiện
     $sql = "SELECT * FROM " . NV_PREFIXLANG . "_" . $module_data . "_rows WHERE id = " . $id;
     $result = $db->query($sql);
     $array = $result->fetch();
@@ -105,17 +90,19 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
     if (empty($error)) {
         if (!$id) {
             $sql = "INSERT INTO " . NV_PREFIXLANG . "_" . $module_data . "_rows (
-                catid, day, month, image, content
+                catid, day, month, image, content, add_time
             ) VALUES (
                 " . $array['catid'] . ", " . $array['day'] . ",  " . $array['month'] . ",
-                :image, :content)";
+                :image, :content, " . NV_CURRENTTIME . "
+            )";
         } else {
             $sql = "UPDATE " . NV_PREFIXLANG . "_" . $module_data . "_rows SET
                 catid=" . $array['catid'] . ",
                 day=" . $array['day'] . ",
                 month=" . $array['month'] . ",
                 image=:image,
-                content=:content
+                content=:content,
+                edit_time=" . NV_CURRENTTIME . "
             WHERE id = " . $id;
         }
 
@@ -158,6 +145,7 @@ $xtpl->assign('OP', $op);
 $xtpl->assign('DATA', $array);
 $xtpl->assign('UPLOAD_CURRENT', NV_UPLOADS_DIR . '/' . $module_upload);
 $xtpl->assign('UPLOAD_PATH', NV_UPLOADS_DIR . '/' . $module_upload);
+
 // Hiển thị lỗi
 if (!empty($error)) {
     $xtpl->assign('ERROR', implode('<br />', $error));
@@ -171,6 +159,7 @@ for ($i = 1; $i <= 31; $i++) {
     $xtpl->assign('DAY', $array_day);
     $xtpl->parse('main.loop_day');
 }
+
 for ($i = 1; $i <= 12; $i++) {
     $array_month = [];
     $array_month['value'] = $i;
@@ -179,9 +168,11 @@ for ($i = 1; $i <= 12; $i++) {
     $xtpl->parse('main.loop_month');
 }
 
-if (!empty($array['catid'])) {
-    $xtpl->assign('CFG_CAT', $global_array_cats[$array['catid']]);
-    $xtpl->parse('main.cfg_cat');
+// Xuất danh mục
+foreach ($global_array_cats as $cat) {
+    $cat['selected'] = $array['catid'] == $cat['id'] ? ' selected="selected"' : '';
+    $xtpl->assign('CAT', $cat);
+    $xtpl->parse('main.cat');
 }
 
 $xtpl->parse('main');
