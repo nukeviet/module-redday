@@ -12,7 +12,9 @@
 if (!defined('NV_IS_FILE_ADMIN')) {
     die('Stop!!!');
 }
+
 $page_title = $lang_module['cat'];
+
 // Thay đổi thứ tự
 if ($nv_Request->get_title('changeweight', 'post', '') === NV_CHECK_SESSION) {
     $id = $nv_Request->get_absint('id', 'post', 0);

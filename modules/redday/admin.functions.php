@@ -8,13 +8,15 @@
  * @Createdate 12/31/2009 2:29
  */
 
-if (!defined('NV_ADMIN') or !defined('NV_MAINFILE') or !defined('NV_IS_MODADMIN')) die('Stop!!!');
+if (!defined('NV_ADMIN') or !defined('NV_MAINFILE') or !defined('NV_IS_MODADMIN')) {
+    die('Stop!!!');
+}
 
-$allow_func = array(
+$allow_func = [
     'cat',
     'add_content',
-    'main',
-);
+    'main'
+];
 
 $submenu['cat'] = $lang_module['cat'];
 $submenu['add_content'] = $lang_module['add_content'];

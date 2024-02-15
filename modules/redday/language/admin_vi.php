@@ -1,24 +1,24 @@
 <?php
 
 /**
- * @Project NUKEVIET 4.x
- * @Author VINADES.,JSC (contact@vinades.vn)
- * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
- * @License GNU/GPL version 2 or any later version
- * @Createdate 2-9-2010 14:43
+ * NukeViet Content Management System
+ * @version 4.x
+ * @author VINADES.,JSC <contact@vinades.vn>
+ * @copyright (C) 2009-2021 VINADES.,JSC. All rights reserved
+ * @license GNU/GPL version 2 or any later version
+ * @see https://github.com/nukeviet The NukeViet CMS GitHub project
  */
 
-if( ! defined( 'NV_ADMIN' ) or ! defined( 'NV_MAINFILE' ) )
-{
-	die( 'Stop!!!' );
+if (!defined('NV_ADMIN') or !defined('NV_MAINFILE')) {
+    die('Stop!!!');
 }
+
 $lang_translator['author'] = 'VINADES.,JSC (contact@vinades.vn)';
 $lang_translator['createdate'] = '04/03/2010, 15:22';
 $lang_translator['copyright'] = '@Copyright (C) 2012 VINADES.,JSC. All rights reserved';
 $lang_translator['info'] = '';
 $lang_translator['langtype'] = 'lang_module';
 
-// Lang chung. Giữ lại trên tất cả các module
 $lang_module['add'] = 'Thêm';
 $lang_module['title'] = 'Tiêu đề';
 $lang_module['alias'] = 'Liên kết tĩnh';
@@ -43,7 +43,6 @@ $lang_module['from_day'] = 'Từ ngày';
 $lang_module['to_day'] = 'Đến ngày';
 $lang_module['is_required'] = 'là mục bắt buộc';
 
-// Lang phần danh sách main
 $lang_module['main'] = 'Danh sách bài đăng';
 $lang_module['main_add'] = 'Thêm bài';
 $lang_module['main_edit'] = 'Sửa bài viết';
@@ -60,7 +59,6 @@ $lang_module['main_error_exits_cat'] = 'Không tồn tại danh mục';
 $lang_module['main_error_month_match'] = 'Tháng không phù hợp';
 $lang_module['main_error_day_match'] = 'Ngày không phù hợp';
 
-
 $lang_module['cat'] = 'Chủ đề';
 $lang_module['add_content'] = 'Thêm nội dung';
 $lang_module['cat'] = 'Danh mục';
@@ -70,7 +68,6 @@ $lang_module['cat_add'] = 'Thêm danh mục';
 $lang_module['cat_edit'] = 'Sửa danh mục';
 $lang_module['cat_error_title'] = 'Tiêu đề không được để trống';
 $lang_module['cat_error_exists'] = 'Tiêu đề bị trùng';
-
 
 $lang_module['main'] = 'Ngày này năm xưa';
 $lang_module['rdselectday'] = 'Chọn ngày';

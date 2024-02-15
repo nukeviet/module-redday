@@ -1,23 +1,26 @@
 <?php
 
 /**
- * @Project NUKEVIET 4.x
- * @Author VINADES.,JSC (contact@vinades.vn)
- * @copyright 2009
- * @License GNU/GPL version 2 or any later version
- * @Createdate 12/31/2009 2:29
+ * NukeViet Content Management System
+ * @version 4.x
+ * @author VINADES.,JSC <contact@vinades.vn>
+ * @copyright (C) 2009-2021 VINADES.,JSC. All rights reserved
+ * @license GNU/GPL version 2 or any later version
+ * @see https://github.com/nukeviet The NukeViet CMS GitHub project
  */
 
-if ( ! defined( 'NV_ADMIN' ) or ! defined( 'NV_MAINFILE' )) die( 'Stop!!!' );
+if (!defined('NV_ADMIN') or !defined('NV_MAINFILE')) {
+    die('Stop!!!');
+}
 
-$module_version = array(
-    'name' => 'Redday',
-	'modfuncs' => 'main',
-	'submenu' => 'main',
-	'is_sysmod' => 0,
-	'virtual' => 0,
-	'version' => '4.5.04',
-	'date' => 'Wed, 4 Feb 2012 00:00:00 GMT',
-	'author' => 'VINADES (contact@vinades.vn)',
-	'note' => ''
-);
+$module_version = [
+    'name' => 'Ngày này năm xưa',
+    'modfuncs' => 'main',
+    'submenu' => 'main',
+    'is_sysmod' => 0,
+    'virtual' => 0,
+    'version' => '4.5.00',
+    'date' => 'Thursday, February 15, 2024 11:09:25 AM GMT+07:00',
+    'author' => 'VINADES.,JSC <contact@vinades.vn>',
+    'note' => 'Đúng như tên gọi, module Ngày này năm xưa (redday) cho phép hiển thị, trình bày các sự kiện đã từng diễn ra ngày này năm xưa cũng như tra cứu sự kiện đã kiện lưu trữ trong hệ thống'
+];

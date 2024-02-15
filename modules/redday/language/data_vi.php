@@ -13,7 +13,6 @@ if (!defined('NV_ADMIN')) {
     exit('Stop!!!');
 }
 
-
 // Danh mục
 $db->query("INSERT INTO " . $db_config['prefix'] . "_" . $lang . "_" . $module_data . "_cats (id, title, add_time, weight) VALUES ('1', 'Ngày lễ quốc gia', '" . NV_CURRENTTIME . "', '1')");
 $db->query("INSERT INTO " . $db_config['prefix'] . "_" . $lang . "_" . $module_data . "_cats (id, title, add_time, weight) VALUES ('2', 'Sự kiện trong nước', '" . NV_CURRENTTIME . "', '2')");
