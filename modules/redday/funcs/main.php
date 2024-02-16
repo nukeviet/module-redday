@@ -13,13 +13,11 @@ if (!defined('NV_IS_MOD_REDDAY')) {
     die('Stop!!!');
 }
 
-$key_words = $module_info['keywords'] ?? 'no';
-$description = $module_info['description'] ?? 'no';
-$page_url = $base_url = NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name;
+$key_words = $module_info['keywords'];
+$page_url = NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name;
 
-$day = $nv_Request->get_int('day', 'post', date('d', NV_CURRENTTIME));
-$month = $nv_Request->get_int('month', 'post', date('m', NV_CURRENTTIME));
-$error = [];
+$day = $current_day = date('j', NV_CURRENTTIME);
+$month = $current_month = date('n', NV_CURRENTTIME);
 $arr_allow_date = [
     1 => 31,
     2 => 29,
@@ -35,34 +33,44 @@ $arr_allow_date = [
     12 => 31,
 ];
 
-if (!in_array($month, array_keys($arr_allow_date))) {
-    $error[] = $lang_module['main_error_month_match'];
-}
-if (!(($day >= 1) && ($day <= $arr_allow_date[$month]))) {
-    $error[] = sprintf($lang_module['error_month'], $month, $day);
-}
-
-$data = [];
-
-if (empty($error)) {
-    $db->sqlreset()
-        ->select('*')
-        ->from(NV_PREFIXLANG . "_" . $module_data . "_rows")
-        ->where('day=' . $day . ' AND month = ' . $month)
-        ->order('catid');
-    $result = $db->query($db->sql());
-    while ($row = $result->fetch(2)) {
-        if (empty($data[$row['catid']])) {
-            $data[$row['catid']] = [];
-        }
-        $data[$row['catid']][] = $row;
+if (!empty($array_op[0]) and preg_match('/^[a-z]+\-([0-9]+)\-[a-z]+\-([0-9]+)$/', $array_op[0], $m)) {
+    // Chọn ngày tháng cụ thể
+    $day = intval($m[1]);
+    $month = intval($m[2]);
+    if ($month < 1 or $month > 12 or $day < 1 or $day > $arr_allow_date[$month]) {
+        nv_redirect_location($page_url);
     }
+    $page_title = sprintf($lang_module['main_title_redday'], $day, $month);
+    $page_url .= '&amp;' . NV_OP_VARIABLE . '=' . $lang_module['op_day'] . '-' . $day . '-' . $lang_module['op_month'] . '-' . $month . $global_config['rewrite_exturl'];
+    $description = sprintf($lang_module['main_description_redday'], $day, $month);
+} else {
+    // Mặc định main của trang chủ
+    $page_title = $module_info['site_title'];
+    $description = $module_info['description'];
 }
 
-$canonicalUrl = getCanonicalUrl($page_url, true, true);
+$canonicalUrl = getCanonicalUrl($page_url);
+$link_submit = NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name . '&amp;' . NV_OP_VARIABLE . '=' . $lang_module['op_day'] . '-DDDD-' . $lang_module['op_month'] . '-MMMM' . $global_config['rewrite_exturl'];
+$link_submit = nv_url_rewrite($link_submit, true);
 
-$contents = nv_theme_redday_main($data, $error);
-$page_title = sprintf($lang_module['main_title_redday'], $day, $month);
+$structured_data = [];
+
+// Lấy các sự kiện
+$db->sqlreset()
+    ->select('*')
+    ->from(NV_PREFIXLANG . "_" . $module_data . "_rows")
+    ->where('day=' . $day . ' AND month = ' . $month)
+    ->order('id DESC');
+$result = $db->query($db->sql());
+while ($row = $result->fetch(2)) {
+    if (empty($data[$row['catid']])) {
+        $data[$row['catid']] = [];
+    }
+    $data[$row['catid']][] = $row;
+}
+
+$contents = nv_theme_redday_main($data, $day, $month, $link_submit, $structured_data);
+
 include NV_ROOTDIR . '/includes/header.php';
 echo nv_site_theme($contents);
 include NV_ROOTDIR . '/includes/footer.php';

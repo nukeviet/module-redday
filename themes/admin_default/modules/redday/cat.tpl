@@ -95,7 +95,6 @@ $(document).ready(function() {
         $('html, body').animate({
             scrollTop: $('#form-holder').offset().top
         }, 200, function() {
-            console.log('gg');
             $('[name="title"]').focus();
         });
     });

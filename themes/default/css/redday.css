@@ -1,47 +1,14 @@
-.redday-title{
-    text-align: center; 
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 16px; 
-    font-weight: bolder; 
-    color: #F36400;
+.pb-0 {
+    padding-bottom: 0px!important;
 }
-.redday-event{
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 14px; 
-    font-weight: bold; 
-    text-decoration: underline; 
-    text-transform: uppercase; 
-    padding-bottom: 5px; 
-    margin-bottom: 5px;
-    color: #428BCA;
-}
-.redday-event ul{
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 13px; 
-    text-align: justify; 
-    padding-bottom: 20px; 
-    margin-bottom: 20px;
-}
-.redday-event ul li{
-    padding-top: 4px; 
-    padding-bottom: 4px; 
-    margin-top: 4px; 
-    margin-bottom: 4px
-}
-.redday-event0{
-    text-align: center; 
-    font-family: Tahoma, Helvetica, sans-serif; 
-    font-size: 14px; 
-    font-weight: bold; 
-    color: red; 
-    padding-bottom: 5px; 
-    margin-bottom: 5px;
-}
-.redday-content ul li{
-	padding: 5px;	
-	text-align: justify;
-	line-height: 21px;
-	background-image:url('../images/redday/pix.gif');
-	list-style-type:circle; 
-	
+
+@media (min-width: 768px) {
+    .redday-input {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .redday-form-inline .form-group {
+        margin-bottom: 15px;
+    }
 }

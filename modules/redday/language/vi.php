@@ -19,15 +19,14 @@ $lang_translator['copyright'] = '@Copyright (C) 2012 VINADES.,JSC. All rights re
 $lang_translator['info'] = '';
 $lang_translator['langtype'] = 'lang_module';
 
+$lang_module['op_day'] = 'ngay';
+$lang_module['op_month'] = 'thang';
+
 $lang_module['main_title'] = 'Ngày này năm xưa';
 $lang_module['main_title_redday'] = 'Ngày %s tháng %s năm xưa';
+$lang_module['main_description_redday'] = 'Những ngày lễ và sự kiện trong ngoài nước diễn ra trong ngày %s tháng %s năm xưa';
 $lang_module['rdselectday'] = 'Chọn ngày';
 $lang_module['rdselectmonth'] = 'Chọn tháng';
 $lang_module['rdsubmit'] = 'Hiển thị';
 $lang_module['rdday'] = 'Ngày';
 $lang_module['rdmonth'] = 'tháng';
-$lang_module['rderrdate'] = 'Ngày không hợp lệ, hãy chọn ngày khác!';
-$lang_module['stateevents'] = 'Sự kiện trong nước';
-$lang_module['interevents'] = 'Sự kiện ngoài nước';
-$lang_module['otherevents'] = 'Sự kiện khác';
-$lang_module['error_month'] = 'Lỗi: Tháng %s không có ngày thứ %s';

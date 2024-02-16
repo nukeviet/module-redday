@@ -1,50 +1,44 @@
 <!-- BEGIN: main -->
-<!-- BEGIN: error -->
-<div class="alert alert-danger"><strong>{ERROR}</strong></div>
-<!-- END: error -->
 <div class="panel panel-default">
-    <div class="panel-body">
+    <div class="panel-body pb-0">
         <div class="text-center">
-            <form class="form-inline" method="post" action="{ACTION}">
-                <div class="form-group">
-                    <label for="sl-day">{LANG.rdselectday}:</label>
-                    <select class="form-control" name="day" id="sl-day">
-                        <!-- BEGIN: loop_day -->
-                        <option{DAY.sl} {DAY.value}>{DAY.value}</option>
-                            <!-- END: loop_day -->
-                    </select>
-                </div>
+            <form class="form-inline redday-form-inline" id="redday-form" data-link="{LINK_SUBMIT}">
                 <div class="form-group">
                     <label for="sl-month">{LANG.rdselectmonth}:</label>
-                    <select class="form-control" name="month" id="sl-month">
-                        <!-- BEGIN: loop_month -->
-                        <option{MONTH.sl} {MONTH.value}>{MONTH.value}</option>
-                            <!-- END: loop_month -->
+                    <select class="form-control redday-input" name="month" id="sl-month">
+                        <!-- BEGIN: month -->
+                        <option value="{MONTH.key}"{MONTH.selected}>{MONTH.title}</option>
+                        <!-- END: month -->
                     </select>
                 </div>
                 <div class="form-group">
-                    <input class="btn btn-primary" type="submit" value="{LANG.rdsubmit}" name="submit1" />
+                    <label for="sl-day">{LANG.rdselectday}:</label>
+                    <select class="form-control redday-input" name="day" id="sl-day" data-current="{DAY}">
+                        <option value="0">--</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary" type="submit" value="{LANG.rdsubmit}">
                 </div>
             </form>
         </div>
     </div>
 </div>
-<div class="redday-title">
-    <a title="{LANG.main_title}" href="{ACTION}">
-        <img height="70" width="70" src="{NV_BASE_SITEURL}themes/{TEMPLATE}/images/redday/redday.gif" alt="{LANG.main_title}" />
-    </a>
-    {LANG.main_title}
-    <div class="text-center">{main_title_redday}</div>
-    <div class="redday-event0">{reddayevent0}</div>
-</div>
+
+<h1 class="margin-bottom">{PAGE_TITLE}</h1>
+
 <!-- BEGIN: cats -->
-<div class="redday-event">{CAT.title}</div>
-<div class="redday-content">
-    <ul>
-        <!-- BEGIN: loop -->
-        <li>{LOOP.content}</li>
-        <!-- END: loop -->
-    </ul>
+<h2 class="margin-bottom"><i class="fa fa-calendar-o text-success" aria-hidden="true"></i> {CAT.title}</h2>
+<!-- BEGIN: loop -->
+<div class="panel panel-primary">
+    <div class="panel-body">
+        {LOOP.content}
+    </div>
 </div>
+<!-- END: loop -->
 <!-- END: cats -->
+
+<script>
+window.reddayDayInMonth = {JSON_DAYINMONTH};
+</script>
 <!-- END: main -->

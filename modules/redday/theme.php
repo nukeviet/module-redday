@@ -15,39 +15,31 @@ if (!defined('NV_IS_MOD_REDDAY')) {
 
 /**
  * @param array $array_data
- * @param array $error
+ * @param int $day
+ * @param int $month
+ * @param string $link_submit
+ * @param array $structured_data
  * @return string
  */
-function nv_theme_redday_main($array_data, $error)
+function nv_theme_redday_main($array_data, $day, $month, $link_submit, $structured_data)
 {
-    global $module_name, $module_file, $lang_module, $module_info, $op, $day, $month, $global_array_cats;
+    global $module_name, $module_file, $lang_module, $module_info, $op, $global_array_cats, $arr_allow_date, $page_title;
 
     $xtpl = new XTemplate($op . '.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/' . $module_file);
     $xtpl->assign('LANG', $lang_module);
-    $xtpl->assign('TEMPLATE', $module_info['template']);
-    $xtpl->assign('NV_BASE_SITEURL', NV_BASE_SITEURL);
-    $xtpl->assign('ACTION', NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name);
-    $xtpl->assign('main_title_redday', sprintf($lang_module['main_title_redday'], $day, $month));
+    $xtpl->assign('JSON_DAYINMONTH', json_encode($arr_allow_date));
+    $xtpl->assign('PAGE_TITLE', $page_title);
+    $xtpl->assign('DAY', $day);
+    $xtpl->assign('LINK_SUBMIT', $link_submit);
 
-    if (!empty($error)) {
-        $xtpl->assign('ERROR', implode('<br />', $error));
-        $xtpl->parse('main.error');
-    }
-
-    for ($i = 1; $i <= 31; $i++) {
-        $array['value'] = $i;
-        $array['sl'] = ($i == $day) ? " selected=\"selected\"" : "";
-
-        $xtpl->assign('DAY', $array);
-        $xtpl->parse('main.loop_day');
-    }
-
+    // Xuất tháng
     for ($i = 1; $i <= 12; $i++) {
-        $array['value'] = $i;
-        $array['sl'] = ($i == $month) ? " selected=\"selected\"" : "";
-
-        $xtpl->assign('MONTH', $array);
-        $xtpl->parse('main.loop_month');
+        $xtpl->assign('MONTH', [
+            'key' => $i,
+            'title' => $i,
+            'selected' => $i == $month ? ' selected="selected"' : '',
+        ]);
+        $xtpl->parse('main.month');
     }
 
     foreach ($array_data as $catid => $rows) {
