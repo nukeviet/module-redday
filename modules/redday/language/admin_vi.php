@@ -44,6 +44,7 @@ $lang_module['to'] = 'đến';
 $lang_module['from_day'] = 'Từ ngày';
 $lang_module['to_day'] = 'Đến ngày';
 $lang_module['is_required'] = 'là mục bắt buộc';
+$lang_module['tools'] = 'Công cụ';
 
 $lang_module['main'] = 'Danh sách sự kiện';
 $lang_module['main_add'] = 'Thêm sự kiện';
@@ -64,6 +65,27 @@ $lang_module['main_search_from'] = 'Tạo từ ngày';
 $lang_module['main_search_to'] = 'Tạo đến ngày';
 $lang_module['main_search_d'] = 'Sự kiện vào ngày';
 $lang_module['main_search_m'] = 'Sự kiện vào tháng';
+
+$lang_module['excel_export_html'] = 'Xuất excel sự kiện đầy đủ mã HTML';
+$lang_module['excel_export_plaintext'] = 'Xuất excel sự kiện dạng text thuần';
+$lang_module['excel_import'] = 'Nhập sự kiện từ excel';
+$lang_module['excel_import_alt'] = 'Nhập từ excel';
+$lang_module['excel_download_template'] = 'Tải mẫu';
+$lang_module['excel_note_template'] = 'Nhấp nút bên dưới để tải về mẫu excel, nhập liệu đúng theo mẫu đó. Yêu cầu không được thêm bớt, thay đổi thứ tự các cột';
+$lang_module['excel_file_label'] = 'Chọn file Excel sau khi đã điền đầy đủ các dòng';
+$lang_module['excel_pickcat'] = 'Nhập vào danh mục';
+$lang_module['excel_skipcat'] = 'Không cập nhật danh mục của những dữ liệu đã có';
+$lang_module['excel_truncate'] = 'Xóa toàn bộ sự kiện của danh mục trước khi nhập';
+$lang_module['excel_error_nofile'] = 'Chưa chọn file excel';
+$lang_module['import_error_readexcel'] = 'Không thể đọc file, kiểm tra lại định dạng excel';
+$lang_module['excel_skip_error'] = 'Bỏ qua các dòng lỗi';
+$lang_module['excel_nl2br'] = 'Chuyển ngắt dòng trong excel dòng thành thẻ xuống dòng trong HTML';
+$lang_module['excel_error_time'] = 'Ngày tháng không hợp lệ tại dòng';
+$lang_module['excel_error_content'] = 'Nội dung còn trống tại dòng';
+$lang_module['excel_success'] = 'Import thành công, thông tin như sau';
+$lang_module['excel_success_add'] = 'Số sự kiện thêm mới';
+$lang_module['excel_success_update'] = 'Số sự kiện cập nhật';
+$lang_module['excel_success_skip'] = 'Số dòng bị bỏ qua';
 
 $lang_module['cat'] = 'Chủ đề';
 $lang_module['add_content'] = 'Thêm sự kiện';

@@ -166,6 +166,7 @@ $xtpl->assign('MODULE_FILE', $module_file);
 $xtpl->assign('OP', $op);
 
 $xtpl->assign('LINK_ADD_NEW', NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name . '&amp;' . NV_OP_VARIABLE . '=content');
+$xtpl->assign('LINK_IMPORT', NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name . '&amp;' . NV_OP_VARIABLE . '=import');
 
 // Chuyển tìm kiếm sang ngày tháng
 $array_search['from'] = empty($array_search['from']) ? '' : nv_date('d-m-Y', $array_search['from']);

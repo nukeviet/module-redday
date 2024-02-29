@@ -64,6 +64,7 @@
             <div class="form-group">
                 <button class="btn btn-primary" type="submit"><i class="fa fa-search" aria-hidden="true"></i> {GLANG.search}</button>
                 <a href="{LINK_ADD_NEW}" class="btn btn-success"><i class="fa fa-plus"></i> {LANG.main_add}</a>
+                <a href="{LINK_IMPORT}" class="btn btn-default"><i class="fa fa-upload"></i> {LANG.excel_import_alt}</a>
             </div>
         </div>
     </div>

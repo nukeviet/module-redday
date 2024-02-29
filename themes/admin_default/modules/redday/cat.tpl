@@ -24,9 +24,9 @@ $(document).ready(function() {
         <thead>
             <tr>
                 <th style="width: 10%" class="text-nowrap">{LANG.order}</th>
-                <th style="width: 65%" class="text-nowrap">{LANG.cat_title}</th>
+                <th style="width: 50%" class="text-nowrap">{LANG.cat_title}</th>
                 <th style="width: 15%" class="text-center text-nowrap">{LANG.status}</th>
-                <th style="width: 10%" class="text-center text-nowrap">{LANG.function}</th>
+                <th style="width: 25%" class="text-center text-nowrap">{LANG.function}</th>
             </tr>
         </thead>
         <tbody>
@@ -49,6 +49,16 @@ $(document).ready(function() {
                 <td class="text-center text-nowrap">
                     <a class="btn btn-sm btn-default" href="{ROW.url_edit}"><i class="fa fa-edit"></i> {GLANG.edit}</a>
                     <a class="btn btn-sm btn-danger" href="javascript:void(0);" onclick="nv_delele_cat('{ROW.id}', '{NV_CHECK_SESSION}');"><i class="fa fa-trash"></i> {GLANG.delete}</a>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {LANG.tools} <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="{ROW.url_export_html}"><i class="fa fa-code fa-fw text-center" aria-hidden="true"></i> {LANG.excel_export_html}</a></li>
+                            <li><a href="{ROW.url_export_plaintext}"><i class="fa fa-file-text-o fa-fw text-center" aria-hidden="true"></i> {LANG.excel_export_plaintext}</a></li>
+                            <li><a href="{ROW.url_import}"><i class="fa fa-upload fa-fw text-center" aria-hidden="true"></i> {LANG.excel_import}</a></li>
+                        </ul>
+                    </div>
                 </td>
             </tr>
             <!-- END: loop -->

@@ -16,7 +16,9 @@ if (!defined('NV_ADMIN')) {
 $allow_func = [
     'cat',
     'content',
-    'main'
+    'main',
+    'import',
+    'export'
 ];
 
 $submenu['content'] = $lang_module['add_content'];

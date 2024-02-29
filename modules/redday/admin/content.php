@@ -52,21 +52,6 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
     $array['content'] = $nv_Request->get_editor('content', '', NV_ALLOWED_HTML_TAGS);
     $array['content'] = nv_editor_nl2br($array['content']);
 
-    $arr_allow_date = [
-        1 => 31,
-        2 => 29,
-        3 => 31,
-        4 => 30,
-        5 => 31,
-        6 => 30,
-        7 => 31,
-        8 => 31,
-        9 => 30,
-        10 => 31,
-        11 => 30,
-        12 => 31,
-    ];
-
     // Xử lý dữ liệu
     if (empty($array['catid'])) {
         $error[] = $lang_module['main_error_catids'];
