@@ -19,8 +19,8 @@ $module_version = [
     'submenu' => '',
     'is_sysmod' => 0,
     'virtual' => 1,
-    'version' => '4.5.00',
-    'date' => 'Thursday, February 15, 2024 11:09:25 AM GMT+07:00',
+    'version' => '4.6.00',
+    'date' => 'Tuesday, March 12, 2024 11:09:25 AM GMT+07:00',
     'author' => 'VINADES.,JSC <contact@vinades.vn>',
     'note' => 'Đúng như tên gọi, module Ngày này năm xưa (redday) cho phép hiển thị, trình bày các sự kiện đã từng diễn ra ngày này năm xưa cũng như tra cứu sự kiện đã kiện lưu trữ trong hệ thống'
 ];
