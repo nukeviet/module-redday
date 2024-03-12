@@ -23,10 +23,10 @@ if (!defined('NV_IS_MOD_REDDAY')) {
  */
 function nv_theme_redday_main($array_data, $day, $month, $link_submit, $structured_data)
 {
-    global $module_name, $module_file, $lang_module, $module_info, $op, $global_array_cats, $arr_allow_date, $page_title;
+    global $op, $global_array_cats, $arr_allow_date, $page_title, $nv_Lang;
 
-    $xtpl = new XTemplate($op . '.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/' . $module_file);
-    $xtpl->assign('LANG', $lang_module);
+    $xtpl = new XTemplate($op . '.tpl', get_module_tpl_dir($op . '.tpl'));
+    $xtpl->assign('LANG', \NukeViet\Core\Language::$lang_module);
     $xtpl->assign('JSON_DAYINMONTH', json_encode($arr_allow_date));
     $xtpl->assign('PAGE_TITLE', $page_title);
     $xtpl->assign('DAY', $day);

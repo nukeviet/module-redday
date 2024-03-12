@@ -59,7 +59,7 @@ if ($nv_Request->get_title('delete', 'post', '') === NV_CHECK_SESSION) {
     nv_htmlOutput("OK");
 }
 
-$page_title = $lang_module['main'];
+$page_title = $nv_Lang->getModule('main');
 
 $per_page = 20;
 $page = $nv_Request->get_absint('page', 'get', 1);
@@ -158,9 +158,9 @@ if (!empty($array_order['field']) and !empty($array_order['value'])) {
 $db->select('*')->order($order)->limit($per_page)->offset(($page - 1) * $per_page);
 $result = $db->query($db->sql());
 
-$xtpl = new XTemplate('main.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file);
-$xtpl->assign('LANG', $lang_module);
-$xtpl->assign('GLANG', $lang_global);
+$xtpl = new XTemplate('main.tpl', get_module_tpl_dir('main.tpl'));
+$xtpl->assign('LANG', \NukeViet\Core\Language::$lang_module);
+$xtpl->assign('GLANG', \NukeViet\Core\Language::$lang_global);
 $xtpl->assign('MODULE_NAME', $module_name);
 $xtpl->assign('MODULE_FILE', $module_file);
 $xtpl->assign('OP', $op);

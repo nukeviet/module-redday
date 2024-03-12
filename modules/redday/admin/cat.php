@@ -13,7 +13,7 @@ if (!defined('NV_IS_FILE_ADMIN')) {
     die('Stop!!!');
 }
 
-$page_title = $lang_module['cat'];
+$page_title = $nv_Lang->getModule('cat');
 
 // Thay đổi thứ tự
 if ($nv_Request->get_title('changeweight', 'post', '') === NV_CHECK_SESSION) {
@@ -118,11 +118,11 @@ if (!empty($id)) {
     $array = $result->fetch();
 
     if (empty($array)) {
-        nv_info_die($lang_global['error_404_title'], $lang_global['error_404_title'], $lang_global['error_404_content']);
+        nv_info_die($nv_Lang->getGlobal('error_404_title'), $nv_Lang->getGlobal('error_404_title'), $nv_Lang->getGlobal('error_404_content'));
     }
 
     $is_edit = true;
-    $caption = $lang_module['cat_edit'];
+    $caption = $nv_Lang->getModule('cat_edit');
     $form_action = NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name . '&amp;' . NV_OP_VARIABLE . '=' . $op . '&amp;id=' . $id;
 } else {
     $array = [
@@ -131,7 +131,7 @@ if (!empty($id)) {
         'description' => '',
     ];
 
-    $caption = $lang_module['cat'];
+    $caption = $nv_Lang->getModule('cat');
     $form_action = NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name . '&amp;' . NV_OP_VARIABLE . '=' . $op;
 }
 
@@ -154,9 +154,9 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
     }
 
     if (empty($array['title'])) {
-        $error[] = $lang_module['cat_error_title'];
+        $error[] = $nv_Lang->getModule('cat_error_title');
     } elseif ($is_exists) {
-        $error[] = $lang_module['cat_error_exists'];
+        $error[] = $nv_Lang->getModule('cat_error_exists');
     }
 
     if (empty($error)) {
@@ -191,16 +191,16 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
             nv_redirect_location(NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&' . NV_NAME_VARIABLE . '=' . $module_name . '&' . NV_OP_VARIABLE . '=' . $op);
         } catch (PDOException $e) {
             trigger_error(print_r($e, true));
-            $error[] = $lang_module['errorsave'];
+            $error[] = $nv_Lang->getModule('errorsave');
         }
     }
 }
 
 $array['description'] = nv_br2nl($array['description']);
 
-$xtpl = new XTemplate($op . '.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file);
-$xtpl->assign('LANG', $lang_module);
-$xtpl->assign('GLANG', $lang_global);
+$xtpl = new XTemplate($op . '.tpl', get_module_tpl_dir($op . '.tpl'));
+$xtpl->assign('LANG', \NukeViet\Core\Language::$lang_module);
+$xtpl->assign('GLANG', \NukeViet\Core\Language::$lang_global);
 $xtpl->assign('CAPTION', $caption);
 $xtpl->assign('FORM_ACTION', $form_action);
 $xtpl->assign('DATA', $array);

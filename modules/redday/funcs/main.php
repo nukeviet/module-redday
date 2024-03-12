@@ -40,9 +40,9 @@ if (!empty($array_op[0]) and preg_match('/^[a-z]+\-([0-9]+)\-[a-z]+\-([0-9]+)$/'
     if ($month < 1 or $month > 12 or $day < 1 or $day > $arr_allow_date[$month]) {
         nv_redirect_location($page_url);
     }
-    $page_title = sprintf($lang_module['main_title_redday'], $day, $month);
-    $page_url .= '&amp;' . NV_OP_VARIABLE . '=' . $lang_module['op_day'] . '-' . $day . '-' . $lang_module['op_month'] . '-' . $month . $global_config['rewrite_exturl'];
-    $description = sprintf($lang_module['main_description_redday'], $day, $month);
+    $page_title = sprintf($nv_Lang->getModule('main_title_redday'), $day, $month);
+    $page_url .= '&amp;' . NV_OP_VARIABLE . '=' . $nv_Lang->getModule('op_day') . '-' . $day . '-' . $nv_Lang->getModule('op_month') . '-' . $month . $global_config['rewrite_exturl'];
+    $description = sprintf($nv_Lang->getModule('main_description_redday'), $day, $month);
 } else {
     // Mặc định main của trang chủ
     $page_title = $module_info['site_title'];
@@ -50,7 +50,7 @@ if (!empty($array_op[0]) and preg_match('/^[a-z]+\-([0-9]+)\-[a-z]+\-([0-9]+)$/'
 }
 
 $canonicalUrl = getCanonicalUrl($page_url);
-$link_submit = NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name . '&amp;' . NV_OP_VARIABLE . '=' . $lang_module['op_day'] . '-DDDD-' . $lang_module['op_month'] . '-MMMM' . $global_config['rewrite_exturl'];
+$link_submit = NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name . '&amp;' . NV_OP_VARIABLE . '=' . $nv_Lang->getModule('op_day') . '-DDDD-' . $nv_Lang->getModule('op_month') . '-MMMM' . $global_config['rewrite_exturl'];
 $link_submit = nv_url_rewrite($link_submit, true);
 
 $structured_data = [];

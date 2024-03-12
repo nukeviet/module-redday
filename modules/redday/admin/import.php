@@ -25,7 +25,7 @@ if ($nv_Request->get_title('template', 'get', '') === NV_CHECK_SESSION) {
     exit();
 }
 
-$page_title = $lang_module['excel_import'];
+$page_title = $nv_Lang->getModule('excel_import');
 
 $array = [
     'catid' => $nv_Request->get_absint('catid', 'get', 0),
@@ -62,9 +62,9 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
 
     $array['catid'] = $nv_Request->get_absint('catid', 'post', 0);
     if (empty($array['catid'])) {
-        $error[] = $lang_module['main_error_catids'];
+        $error[] = $nv_Lang->getModule('main_error_catids');
     } elseif (!in_array($array['catid'], array_keys($global_array_cats))) {
-        $error[] = $lang_module['main_error_exits_cat'];
+        $error[] = $nv_Lang->getModule('main_error_exits_cat');
     }
     $array['truncate_data'] = (int) $nv_Request->get_bool('truncate_data', 'post', false);
     $array['skip_error'] = (int) $nv_Request->get_bool('skip_error', 'post', false);
@@ -82,7 +82,7 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
             $error[] = $upload_info['error'];
         }
     } else {
-        $error[] = $lang_module['excel_error_nofile'];
+        $error[] = $nv_Lang->getModule('excel_error_nofile');
     }
 
     // Đọc file excel
@@ -91,7 +91,7 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
             $spreadsheet = IOFactory::load($upload_info['name']);
             $sheet = $spreadsheet->getActiveSheet();
         } catch (Exception $e) {
-            $error[] = $lang_module['import_error_readexcel'];
+            $error[] = $nv_Lang->getModule('import_error_readexcel');
         }
     }
 
@@ -127,10 +127,10 @@ if ($nv_Request->get_title('save', 'post', '') === NV_CHECK_SESSION) {
 
             $line_error = [];
             if ($item['day'] <= 0 or !isset($arr_allow_date[$item['month']]) or $item['day'] > $arr_allow_date[$item['month']]) {
-                $line_error[] = $lang_module['excel_error_time'] . ' ' . number_format($read_row);
+                $line_error[] = $nv_Lang->getModule('excel_error_time') . ' ' . number_format($read_row);
             }
             if (empty($item['content'])) {
-                $line_error[] = $lang_module['excel_error_content'] . ' ' . number_format($read_row);
+                $line_error[] = $nv_Lang->getModule('excel_error_content') . ' ' . number_format($read_row);
             }
 
             if (empty($line_error)) {
@@ -196,9 +196,9 @@ $array['skip_error'] = empty($array['skip_error']) ? '' : ' checked="checked"';
 $array['skip_cat'] = empty($array['skip_cat']) ? '' : ' checked="checked"';
 $array['nl2br'] = empty($array['nl2br']) ? '' : ' checked="checked"';
 
-$xtpl = new XTemplate('import.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file);
-$xtpl->assign('LANG', $lang_module);
-$xtpl->assign('GLANG', $lang_global);
+$xtpl = new XTemplate('import.tpl', get_module_tpl_dir('import.tpl'));
+$xtpl->assign('LANG', \NukeViet\Core\Language::$lang_module);
+$xtpl->assign('GLANG', \NukeViet\Core\Language::$lang_global);
 $xtpl->assign('MODULE_FILE', $module_file);
 $xtpl->assign('OP', $op);
 $xtpl->assign('DATA', $array);
