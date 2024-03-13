@@ -21,5 +21,5 @@ $allow_func = [
     'export'
 ];
 
-$submenu['content'] = $lang_module['add_content'];
-$submenu['cat'] = $lang_module['cat'];
+$submenu['content'] = $nv_Lang->getModule('add_content');
+$submenu['cat'] = $nv_Lang->getModule('cat');
